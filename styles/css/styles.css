@@ -1,0 +1,282 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@font-face {
+  font-family: 'druk-x-condensed';
+  src: url("fonts/druk-x-condensed/druk-x-condensed.eot?#iefix") format("embedded-opentype"), url("fonts/druk-x-condensed/druk-x-condensed.otf") format("opentype"), url("fonts/druk-x-condensed/druk-x-condensed.woff") format("woff"), url("fonts/druk-x-condensed/druk-x-condensed.ttf") format("truetype"), url("fonts/druk-x-condensed/druk-x-condensed.svg#DrukXCond-Super") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'riviera_web';
+  src: url("fonts/riviera/Riviera-Web.eot");
+  src: url("fonts/riviera/Riviera-Web.eot?#iefix") format("embedded-opentype"), url("fonts/riviera/Riviera-Web.woff") format("woff"), url("fonts/riviera/Riviera-Web.ttf") format("truetype"), url("fonts/riviera/Riviera-Web.svg#Font") format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal; }
+
+html, body {
+  background-color: #f6f6f6;
+  color: #111;
+  font-family: 'druk-x-condensed', sans-serif;
+  text-align: left;
+  cursor: none;
+  /*-webkit-font-smoothing:antialiased;*/ }
+
+a {
+  cursor: none; }
+
+::-webkit-scrollbar {
+  display: none; }
+
+#locations {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 160px; }
+  #locations a {
+    text-decoration: none;
+    color: #111; }
+  #locations a:hover {
+    color: #333; }
+  #locations a:hover img {
+    opacity: 0; }
+  #locations a:hover .date {
+    opacity: 1; }
+  #locations a:after {
+    display: inline;
+    content: ', '; }
+  #locations a:last-child:after {
+    display: inline;
+    content: '.'; }
+  #locations img {
+    height: 120px;
+    width: auto; }
+
+.accessories {
+  width: 180px;
+  height: 120px;
+  position: relative;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px; }
+
+.date {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 180px;
+  height: 120px;
+  background-color: #333;
+  color: #fff;
+  font-size: 15px;
+  line-height: 20px;
+  font-family: "courier", monospace;
+  text-transform: uppercase;
+  padding: 10px;
+  box-sizing: border-box;
+  opacity: 0; }
+
+footer#credits {
+  margin-top: 40px;
+  margin-left: 15px;
+  margin-bottom: 20px; }
+
+p.captionText {
+  font-size: 15px;
+  line-height: 20px;
+  font-family: "courier", monospace; }
+  p.captionText a {
+    text-decoration: none;
+    color: #333;
+    padding-bottom: 0px; }
+
+#transitionElement {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 100%;
+  left: 0;
+  right: 0;
+  bottom: -100%;
+  background-color: #fff;
+  z-index: 90; }
+  #transitionElement img {
+    height: 100vh;
+    width: 100vw; }
+
+#transitionElement.show {
+  top: 0;
+  bottom: 0;
+  transition: top 0.4s, bottom 0.4s; }
+
+#transitionElement.up {
+  top: -100%;
+  bottom: 100%;
+  transition: top 0.4s, bottom 0.4s; }
+
+#cursor {
+  width: 20px;
+  height: 20px;
+  position: fixed;
+  pointer-events: none;
+  margin-left: -10px;
+  margin-top: -10px;
+  z-index: 100; }
+  #cursor svg {
+    width: 20px;
+    height: 20px; }
+
+#stage {
+  position: fixed;
+  top: 100%;
+  left: 0;
+  right: 0;
+  bottom: -100%;
+  width: 100%;
+  height: 100%;
+  z-index: 80;
+  background: #111; }
+
+#stage.active {
+  top: 0;
+  bottom: 0;
+  transition: top 0.4s, bottom 0.4s; }
+
+#stage.leave {
+  top: -100%;
+  bottom: 100%;
+  transition: top 0.4s, bottom 0.4s; }
+
+#closeLocation {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 80; }
+  #closeLocation :hover {
+    opacity: .5; }
+
+#locationContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  margin: auto;
+  overflow: auto;
+  padding-bottom: 40px; }
+  #locationContent img.fullSize {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+    clear: both; }
+  #locationContent img.halfSize {
+    width: 40%;
+    margin: auto;
+    margin-bottom: 30px;
+    display: block; }
+
+#locationTitle {
+  font-size: 160px;
+  color: #fff;
+  text-align: center; }
+
+#locationDate {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 15px;
+  line-height: 18px;
+  color: #fff;
+  width: 200px;
+  height: 40px;
+  font-family: "courier", monospace; }
+
+.captionParagraph {
+  color: #fff;
+  font-family: "courier", monospace;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: -10px; }
+  .captionParagraph span {
+    padding-bottom: 2px;
+    border-bottom: 1px solid #fff; }
+
+.contentParagraph {
+  color: #fff;
+  margin: auto;
+  margin-bottom: 30px;
+  width: 70%;
+  font-family: "riviera_web", sans-serif;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center; }
+
+#droppedDots {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; }
+
+.droppedDot {
+  width: 20px;
+  height: 20px;
+  margin-left: -10px;
+  margin-top: -10px;
+  position: absolute; }
+
+/* Z-index Chart
+100: cursor
+90: flag
+80: stage
+*/
