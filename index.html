@@ -50,14 +50,18 @@ contact@gabeferreira.com
 
 	<footer id="credits">
 		<p class="captionText">
-			Places is a project by <a href="http://gabeferreira.com/" target="_blank">Gabe Ferreira</a>.<br>
-			Questions, comments: contact@gabeferreira.com
+			Places is a project by <a href="http://gabeferreira.com/" target="_blank">Gabe Ferreira</a> (contact@gabeferreira.com)<br>
+			Photos weren taken with a Samsumg S3 (prior to May 2016) and an iPhone 6 (all others).
 		</p>
 	</footer>
 
-	<div id="map"></div><!--map-->
+	<div id="mapHolder">
+		<a href="#/nothome" id="closeMap"><img src="assets/img/ui/close-black.svg" class="closeMapImage"></a>
+		<div id="map"></div><!--map-->
+	</div><!--mapHolder-->
+
 	<script type="text/javascript" src="assets/app.js" async></script>
-	<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADqByR1dcueAxuRgoy7cbiKJJ-yiY4Iss&callback=initMap" async defer></script>-->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADqByR1dcueAxuRgoy7cbiKJJ-yiY4Iss&callback=initMap" async defer></script>
 
 </body>
 

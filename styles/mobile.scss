@@ -1,0 +1,91 @@
+@media (max-width: 800px), (max-device-width: 800px) {
+
+	#locations {
+		font-size:75px;
+		margin-left:5px;
+		margin-right:5px;
+		line-height:70px;
+
+		img {
+			height:40px;
+			width:auto;
+		}
+	}
+
+	.accessories {
+		height:40px;
+		width:60px;
+		margin-right:3px;
+		margin-left:3px;
+	}
+
+	.date {
+		display:none;
+	}
+
+	p.captionText {
+		font-size:12px;
+		line-height:17px;
+	}
+
+	footer#credits {
+		margin-top:15px;
+		margin-left:10px;
+		margin-right:10px;
+		margin-bottom:0;
+	}
+
+	#cursor {
+		opacity:0;
+	}
+
+	/* Individual Locations */
+
+	#locationTitle {
+		font-size:80px;
+		margin-top:50px;
+		margin-bottom:10px
+	}
+
+	#locationDate {
+		font-size:12px;
+		line-height:17px;
+		width:auto;
+		left:50px;
+		right:50px;
+		text-align:center;
+		height:20px;
+		top:15px;
+	}
+
+	#closeLocation {
+		width:25px;
+		height:25px;
+	}
+
+	.navLinkWrapper {
+		display:none;
+	}
+
+	#locationContent div.fullSize {
+		width:calc(100vw - 44px);
+		height:calc((100vw - 44px) / 3 * 2);
+		margin-bottom:20px;
+	}
+
+	#locationContent div.halfSize {
+		width:calc(100vw - 44px);
+		height:calc((100vw - 44px) / 3 * 4);
+		margin-bottom:20px;
+	}
+
+	/* Map */
+
+	#mapHolder {
+		top:0;
+		left:0;
+		right:0;
+		bottom:0;
+	}
+
+}

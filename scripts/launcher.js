@@ -4,8 +4,14 @@ function redirect() {
 	window.location.href = '#/nothome';
 };
 
-function populate() {
-	
+function populate(id) {
+
+	// If the user is trying to land on the site using the map view, 
+	// redirected them to the homepage
+	if ( id === 'map') {
+		redirect();
+	};
+
 	var locationsNav = document.getElementById('locations');
 
 	for (var a = 0; a < locations.length; a++) {
@@ -31,6 +37,22 @@ function populate() {
 		locationsLink.appendChild(accessories);
 
 		locationsNav.appendChild(locationsLink);
+
+		// Randomize when the item gets faded in
+		var randomAnimationDelay = Math.random() * 2000 + 'ms';
+
+		// Get last item in array
+		var placedLinks = document.getElementsByClassName('location');
+		placedLinks[placedLinks.length - 1].style.animationDelay = randomAnimationDelay;
+
 	}
+
+	// Create map link
+	var mapLink = document.createElement('a');
+	mapLink.className = 'mapLink';
+	mapLink.href = '#/map';
+	mapLink.innerHTML = 'Map';
+
+	locationsNav.appendChild(mapLink);
 
 };

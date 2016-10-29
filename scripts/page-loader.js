@@ -1,14 +1,17 @@
 // Javascript document
 
+var mapHolder = document.getElementById('mapHolder');
+
 function loadPage(id) {
 
 	var body = document.body;
 	var currentLocationObject = locations.filter(function(locationSearch) {
 		return locationSearch.url == id;
 	})[0];
+
 	var flagPath = 'assets/img/flags/';
 
-	if ( id === 'nothome' ) {
+	if ( id === 'nothome' || id === 'map' ) {
 
 		body.style.overflow = 'auto';
 
@@ -18,9 +21,17 @@ function loadPage(id) {
 			stageLeaving.className = 'leave';
 		}
 
+		mapHolder.className = '';
+				
+		if ( id === 'map' && pageSwitchCounter > 0 ) {
+			mapHolder.className = 'visible';
+			initMap();
+		}
+
 	} else {
 
 		body.style.overflow = 'hidden';
+		mapHolder.className = '';
 
 		var transitionElement = document.getElementById('transitionElement');
 
@@ -46,7 +57,9 @@ function loadPage(id) {
 		var oldStage = document.getElementById('stage');
 
 		if ( oldStage != null ) {
-			oldStage.parentNode.removeChild(oldStage);
+			setTimeout(function(){
+				oldStage.parentNode.removeChild(oldStage);
+			}, 500);
 		}
 
 		// Create the stage and append to body
@@ -98,15 +111,23 @@ function loadPage(id) {
 			if (contentArray[contentElements].type === 'image') {
 
 				var contentImage = document.createElement('img');
+				contentImage.onload = function() {
+					this.style.opacity = 1;
+				}
 				contentImage.src = imageDirectory + contentArray[contentElements].path;
+
+				var contentImageHolder = document.createElement('div');
 
 				if (contentArray[contentElements].size === 'full') {
 					contentImage.className = 'fullSize';
+					contentImageHolder.className = 'imageHolder fullSize';
 				} else {
 					contentImage.className = 'halfSize';
+					contentImageHolder.className = 'imageHolder halfSize';
 				}
 
-				locationContent.appendChild(contentImage);
+				contentImageHolder.appendChild(contentImage);
+				locationContent.appendChild(contentImageHolder);
 
 			} else if (contentArray[contentElements].type === 'caption') {
 
@@ -130,6 +151,8 @@ function loadPage(id) {
 			}
 
 		}
+
+		addNavButtons(stage, currentLocationObject);
 
 	}
 	

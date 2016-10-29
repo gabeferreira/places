@@ -1,7 +1,5 @@
 // JavaScript Document
 
-console.log('routes.js loaded');
-
 pageSwitchCounter = 0;
 
 // Set up routes
@@ -15,7 +13,7 @@ crossroads.addRoute('{id}', function (id) {
 	if (pageSwitchCounter === 0) {
 
 		// Populate the page with all previews
-		populate();
+		populate(id);
 		loadPage(id);
 		pageSwitchCounter++;
 
