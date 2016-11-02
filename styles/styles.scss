@@ -19,6 +19,7 @@ html, body {
 	font-family:$druk;
 	text-align:left;
 	cursor:none;
+	-webkit-font-smoothing:antialiased;
 }
 
 a {
@@ -116,6 +117,8 @@ footer#credits {
 	margin-top:40px;
 	margin-left:15px;
 	margin-bottom:30px;
+	opacity:0;
+	transition:all $fastTransition;
 }
 
 p.captionText {
@@ -146,6 +149,14 @@ p.captionText {
 	img {
 		height:100vh;
 		width:100vw;
+	}
+
+	img.flag {
+		display:block;
+	}
+
+	img.mobileFlag {
+		display:none;
 	}
 
 }
@@ -227,7 +238,7 @@ p.captionText {
 	overflow:auto;
 	padding-bottom:40px;
 
-	div.fullSize {
+	div.landscape {
 		width:$contentWidthLandscape;
 		height:$contentWidthLandscape / 3 * 2;
 		display:block;
@@ -238,13 +249,23 @@ p.captionText {
 		background-size:100% 100%;
 	}
 
-	div.halfSize {
+	div.portrait {
 		width:$contentWidthPortrait;
 		height:$contentWidthPortrait / 3 * 4;
 		margin:auto;
 		margin-bottom:80px;
 		display:block;
 		background-image:url('img/ui/bg-3x4.gif');
+		background-size:100% 100%;
+	}
+
+	div.fullScreen {
+		width:100vw;
+		height:66.66vw;
+		margin:auto;
+		margin-bottom:80px;
+		display:block;
+		background-image:url('img/ui/bg-3x2.gif');
 		background-size:100% 100%;
 	}
 
@@ -302,7 +323,6 @@ p.captionText {
 	font-size:25px;
 	line-height:35px;
 	text-align:center;
-	-webkit-font-smoothing:antialiased;
 }
 
 #droppedDots {
@@ -394,7 +414,6 @@ img.afterLabel {
 span.beforeTitle,
 span.afterTitle {
 	font-size:160px;
-	-webkit-font-smoothing:antialiased;
 	text-decoration:none;
 	font-family:$druk;
 	line-height:120px;

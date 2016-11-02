@@ -44,6 +44,7 @@ table {
 @font-face {
   font-family: 'druk-x-condensed';
   src: url("fonts/druk-x-condensed/druk-x-condensed.eot?#iefix") format("embedded-opentype"), url("fonts/druk-x-condensed/druk-x-condensed.otf") format("opentype"), url("fonts/druk-x-condensed/druk-x-condensed.woff") format("woff"), url("fonts/druk-x-condensed/druk-x-condensed.ttf") format("truetype"), url("fonts/druk-x-condensed/druk-x-condensed.svg#DrukXCond-Super") format("svg");
+  font-weight: 400;
   font-weight: normal;
   font-style: normal; }
 
@@ -60,7 +61,8 @@ html, body {
   color: #111;
   font-family: "druk-x-condensed", sans-serif;
   text-align: left;
-  cursor: none; }
+  cursor: none;
+  -webkit-font-smoothing: antialiased; }
 
 a {
   cursor: none;
@@ -137,7 +139,9 @@ a {
 footer#credits {
   margin-top: 40px;
   margin-left: 15px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  opacity: 0;
+  transition: all 0.3s; }
 
 p.captionText {
   font-size: 15px;
@@ -162,6 +166,10 @@ p.captionText {
   #transitionElement img {
     height: 100vh;
     width: 100vw; }
+  #transitionElement img.flag {
+    display: block; }
+  #transitionElement img.mobileFlag {
+    display: none; }
 
 #transitionElement.show {
   top: 0;
@@ -226,7 +234,7 @@ p.captionText {
   margin: auto;
   overflow: auto;
   padding-bottom: 40px; }
-  #locationContent div.fullSize {
+  #locationContent div.landscape {
     width: 765px;
     height: 510px;
     display: block;
@@ -235,13 +243,21 @@ p.captionText {
     clear: both;
     background-image: url("img/ui/bg-3x2.gif");
     background-size: 100% 100%; }
-  #locationContent div.halfSize {
+  #locationContent div.portrait {
     width: 585px;
     height: 780px;
     margin: auto;
     margin-bottom: 80px;
     display: block;
     background-image: url("img/ui/bg-3x4.gif");
+    background-size: 100% 100%; }
+  #locationContent div.fullScreen {
+    width: 100vw;
+    height: 66.66vw;
+    margin: auto;
+    margin-bottom: 80px;
+    display: block;
+    background-image: url("img/ui/bg-3x2.gif");
     background-size: 100% 100%; }
   #locationContent img {
     width: 100%;
@@ -287,8 +303,7 @@ p.captionText {
   font-family: "riviera_web", sans-serif;
   font-size: 25px;
   line-height: 35px;
-  text-align: center;
-  -webkit-font-smoothing: antialiased; }
+  text-align: center; }
 
 #droppedDots {
   position: absolute;
@@ -364,7 +379,6 @@ img.afterLabel {
 span.beforeTitle,
 span.afterTitle {
   font-size: 160px;
-  -webkit-font-smoothing: antialiased;
   text-decoration: none;
   font-family: "druk-x-condensed", sans-serif;
   line-height: 120px;
@@ -458,9 +472,10 @@ span.afterTitle {
     opacity: 0; }
   /* Individual Locations */
   #locationTitle {
-    font-size: 80px;
-    margin-top: 50px;
-    margin-bottom: 10px; }
+    font-size: 75px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    -webkit-font-smoothing: antialiased; }
   #locationDate {
     font-size: 12px;
     line-height: 17px;
@@ -469,23 +484,39 @@ span.afterTitle {
     right: 50px;
     text-align: center;
     height: 20px;
-    top: 15px; }
+    top: auto;
+    bottom: 5px; }
   #closeLocation {
     width: 25px;
     height: 25px; }
   .navLinkWrapper {
     display: none; }
-  #locationContent div.fullSize {
-    width: calc(100vw - 44px);
-    height: calc((100vw - 44px) / 3 * 2);
-    margin-bottom: 20px; }
+  #transitionElement img.flag {
+    display: none; }
+  #transitionElement img.mobileFlag {
+    display: block; }
+  #locationContent .captionParagraph {
+    font-size: 12px;
+    width: calc(100% - 20px);
+    margin-top: 20px; }
+  #locationContent .contentParagraph {
+    font-size: 20px;
+    line-height: 30px;
+    width: calc(100% - 20px);
+    margin-top: 10px;
+    margin-bottom: 30px; }
   #locationContent div.halfSize {
-    width: calc(100vw - 44px);
-    height: calc((100vw - 44px) / 3 * 4);
-    margin-bottom: 20px; }
+    width: calc(100vw - 20px);
+    height: calc((100vw - 20px) / 3 * 4);
+    margin-bottom: 10px; }
+  #locationContent div.fullSize {
+    width: calc(100vw - 20px);
+    height: calc((100vw - 20px) / 3 * 2);
+    margin-bottom: 10px; }
   /* Map */
   #mapHolder {
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0; } }
+    bottom: 0;
+    border: none; } }

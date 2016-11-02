@@ -16,7 +16,6 @@ var jsSources = [
 	'scripts/lib/signals.min.js',
 	'scripts/lib/crossroads.min.js',
 	'scripts/lib/hasher.min.js',
-	'scripts/lib/selector.js',
 	/* Functions */
 	'scripts/db.js',
 	'scripts/launcher.js',

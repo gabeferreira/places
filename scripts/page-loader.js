@@ -10,6 +10,7 @@ function loadPage(id) {
 	})[0];
 
 	var flagPath = 'assets/img/flags/';
+	var flagMobilePath = 'assets/img/flags/rotated/'
 
 	if ( id === 'nothome' || id === 'map' ) {
 
@@ -40,9 +41,15 @@ function loadPage(id) {
 
 		// Create the flag
 		var flag = document.createElement('img');
+		flag.className = 'flag';
 		flag.src = flagPath + currentLocationObject.flag + '.svg';
 
+		var mobileFlag = document.createElement('img');
+		mobileFlag.className = 'mobileFlag';
+		mobileFlag.src = flagMobilePath + currentLocationObject.flag + '.svg';
+
 		transitionElement.appendChild(flag);
+		transitionElement.appendChild(mobileFlag);
 		transitionElement.className = 'show';
 
 		// Wait a little, then move the flag up
@@ -118,12 +125,15 @@ function loadPage(id) {
 
 				var contentImageHolder = document.createElement('div');
 
-				if (contentArray[contentElements].size === 'full') {
-					contentImage.className = 'fullSize';
-					contentImageHolder.className = 'imageHolder fullSize';
+				if (contentArray[contentElements].size === 'landscape') {
+					contentImage.className = 'landscape';
+					contentImageHolder.className = 'imageHolder landscape';
+				} else if (contentArray[contentElements].size === 'portrait') {
+					contentImage.className = 'portrait';
+					contentImageHolder.className = 'imageHolder portrait';
 				} else {
-					contentImage.className = 'halfSize';
-					contentImageHolder.className = 'imageHolder halfSize';
+					contentImage.className = 'fullScreen';
+					contentImageHolder.className = 'imageHolder fullScreen';
 				}
 
 				contentImageHolder.appendChild(contentImage);

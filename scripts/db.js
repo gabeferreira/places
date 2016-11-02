@@ -1,6 +1,48 @@
 // Javascript Document
 var locations = [
 	{
+		url:'london',
+		title:'London',
+		date:'15.10.2016',
+		coordinates: {
+			lat: 51.5143837,
+			lng: -0.1429347
+		},
+		flag:'england',
+		content: [
+			{
+				type:'image',
+				size:'fullScreen',
+				path:'london-3x2-002-full.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'london-3x2-001.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'london-3x2-003.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'london-3x2-004.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'london-3x2-005.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'london-3x2-006.jpg'
+			}
+		]
+	},
+	{
 		url:'berlin',
 		title:'Berlin',
 		date:'28.09.2016',
@@ -12,103 +54,38 @@ var locations = [
 		content: [
 			{
 				type:'image',
-				size:'full',
-				path:'berlin-3x2-003.jpg'
+				size:'fullScreen',
+				path:'berlin-3x2-001-full.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
+				size:'landscape',
 				path:'berlin-3x2-002.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
-				path:'berlin-3x2-001.jpg'
-			},
-			{
-				type:'caption',
-				text:'Eastside Gallery'
-			},
-			{
-				type:'text',
-				text:'In 30 minutes of washing the wall at Eastside Gallery with pressurized water, these people (who I assume were volunteers) were able to remove 1 square meter of political graffiti.'
+				size:'landscape',
+				path:'berlin-3x2-003.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
-				path:'berlin-3x2-005.jpg'
-			},
-			{
-				type:'caption',
-				text:'Monument for the Murdered Jews of Europe'
-			},
-			{
-				type:'text',
-				text:'Peter Eisenman managed to create a piece of incredible presence, but what struck me the most was a plaque installed on the ground near Humboldt University, the site of a major Nazi book burning. Roughly translated, the  “At a place where books are burned, people are eventually burned as well” (Heinrich Heine, 1820, referring to the Spanish Inquisition).'
-			},
-			{
-				type:'image',
-				size:'full',
-				path:'berlin-3x2-006.jpg'
-			},
-			{
-				type:'image',
-				size:'full',
+				size:'landscape',
 				path:'berlin-3x2-004.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
+				size:'landscape',
+				path:'berlin-3x2-005.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'berlin-3x2-006.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
 				path:'berlin-3x2-007.jpg'
-			},
-			{
-				type:'image',
-				size:'full',
-				path:'berlin-3x2-008.jpg'
-			},
-			{
-				type:'caption',
-				text:'Brieselang'
-			},
-			{
-				type:'text',
-				text:'After a week of strong and constant rain, my Berliner companions were convinced mushrooms would be abundant in the nearby woods. Though we found nothing, I found Brieselang to be quite charming and the trip a much-needed break from metropolitan chaos. On our way back, we met a man who introduced us to his 27-year-old horse, then broke our hearts: “Pilze? Jetzt findet ihr hier keine Pilze. Vielleicht nächste Woche.”'
-			},
-			{
-				type:'image',
-				size:'full',
-				path:'berlin-3x2-012.jpg'
-			},
-			{
-				type:'image',
-				size:'full',
-				path:'berlin-3x2-009.jpg'
-			},
-			{
-				type:'caption',
-				text:'Gesundbrunnen'
-			},
-			{
-				type:'text',
-				text:'Touring a massive World War II bunker was more interesting than I imagined. Unfortunately (or fortunately, depending on perspective) photos weren’t allowed, but above’s the path to the bunker’s entrance, in a side-door at a subway station.'
-			},
-			{
-				type:'image',
-				size:'full',
-				path:'berlin-3x2-010.jpg'
-			},
-			{
-				type:'caption',
-				text:'Anarchists'
-			},
-			{
-				type:'text',
-				text:'The view from my window as hundreds of protesters stopped traffic and marched toward Alexanderplatz at the sound techno. Berliners aren’t happy with the rising housing and rent prices.'
-			},
-			{
-				type:'image',
-				size:'full',
-				path:'berlin-3x2-011.jpg'
 			},
 		]
 	},
@@ -124,38 +101,28 @@ var locations = [
 		content:[
 			{
 				type:'image',
-				size:'full',
-				path:'prague-3x2-006.jpg'
+				size:'fullScreen',
+				path:'prague-3x2-001-full.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
-				path:'prague-3x2-003.jpg'
-			},
-			{
-				type:'image',
-				size:'full',
+				size:'landscape',
 				path:'prague-3x2-002.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
+				size:'landscape',
+				path:'prague-3x2-003.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
 				path:'prague-3x2-004.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
-				path:'prague-3x2-007.jpg'
-			},
-			{
-				type:'image',
-				size:'full',
+				size:'landscape',
 				path:'prague-3x2-005.jpg'
-			},
-			{
-				type:'image',
-				size:'full',
-				path:'prague-3x2-001.jpg'
 			}
 		]
 	},
@@ -171,38 +138,28 @@ var locations = [
 		content: [
 			{
 				type:'image',
-				size:'full',
-				path:'vienna-3x2-001.jpg'
+				size:'fullScreen',
+				path:'vienna-3x2-001-full.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
+				size:'landscape',
 				path:'vienna-3x2-002.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
+				size:'landscape',
 				path:'vienna-3x2-003.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
+				size:'landscape',
 				path:'vienna-3x2-004.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
+				size:'landscape',
 				path:'vienna-3x2-005.jpg'
-			},
-			{
-				type:'image',
-				size:'full',
-				path:'vienna-3x2-006.jpg'
-			},
-			{
-				type:'image',
-				size:'half',
-				path:'vienna-3x4-001.jpg'
 			}
 		]
 	},
@@ -218,48 +175,28 @@ var locations = [
 		content:[
 			{
 				type:'image',
-				size:'full',
-				path:'budapest-3x2-001.jpg'
+				size:'fullScreen',
+				path:'budapest-3x2-001-full.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
+				size:'landscape',
 				path:'budapest-3x2-002.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
+				size:'portrait',
+				path:'budapest-3x4-001.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
 				path:'budapest-3x2-003.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
+				size:'landscape',
 				path:'budapest-3x2-004.jpg'
-			},
-			{
-				type:'image',
-				size:'full',
-				path:'budapest-3x2-005.jpg'
-			},
-			{
-				type:'image',
-				size:'full',
-				path:'budapest-3x2-006.jpg'
-			},
-			{
-				type:'image',
-				size:'full',
-				path:'budapest-3x2-007.jpg'
-			},
-			{
-				type:'image',
-				size:'full',
-				path:'budapest-3x2-008.jpg'
-			},
-			{
-				type:'image',
-				size:'half',
-				path:'budapest-3x4-001.jpg'
 			}
 		]
 	},
@@ -275,43 +212,28 @@ var locations = [
 		content:[
 			{
 				type:'image',
-				size:'full',
-				path:'split-3x2-004.jpg'
+				size:'fullScreen',
+				path:'split-3x2-001-full.jpg'
 			},
 			{
 				type:'image',
-				size:'half',
-				path:'split-3x4-001.jpg'
-			},
-			{
-				type:'image',
-				size:'full',
-				path:'split-3x2-006.jpg'
-			},
-			{
-				type:'image',
-				size:'full',
-				path:'split-3x2-005.jpg'
-			},
-			{
-				type:'image',
-				size:'half',
-				path:'split-3x4-002.jpg'
-			},
-			{
-				type:'image',
-				size:'full',
-				path:'split-3x2-003.jpg'
-			},
-			{
-				type:'image',
-				size:'full',
+				size:'landscape',
 				path:'split-3x2-002.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
-				path:'split-3x2-001.jpg'
+				size:'portrait',
+				path:'split-3x4-001.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'split-3x2-003.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'split-3x2-004.jpg'
 			}
 		]
 	},
@@ -327,25 +249,29 @@ var locations = [
 		content:[
 			{
 				type:'image',
-				size:'full',
-				path:'zagreb-3x2-004.jpg'
+				size:'fullScreen',
+				path:'zagreb-3x2-001-full.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
+				size:'landscape',
 				path:'zagreb-3x2-002.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
+				size:'landscape',
 				path:'zagreb-3x2-003.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
-				path:'zagreb-3x2-001.jpg'
+				size:'landscape',
+				path:'zagreb-3x2-004.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'zagreb-3x2-005.jpg'
 			}
-
 		]
 	},
 	{
@@ -360,8 +286,8 @@ var locations = [
 		content: [
 			{
 				type:'image',
-				size:'full',
-				path:'bovec-3x2-001.jpg'
+				size:'fullScreen',
+				path:'bovec-3x2-001-full.jpg'
 			},
 			{
 				type:'caption',
@@ -375,35 +301,12 @@ var locations = [
 			},
 			{
 				type:'image',
-				size:'full',
+				size:'landscape',
 				path:'bovec-3x2-002.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
-				path:'bovec-3x2-003.jpg'
-			},
-			{
-				type:'image',
-				size:'full',
-				path:'bovec-3x2-004.jpg'
-			},
-			{
-				type:'caption',
-				text:'Soca Valley'
-			},
-			{
-				type:'text',
-				text:'The most punk rock flower I have ever seen.'
-			},
-			{
-				type:'image',
-				size:'full',
-				path:'bovec-3x2-005.jpg'
-			},
-			{
-				type:'image',
-				size:'half',
+				size:'portrait',
 				path:'bovec-3x4-001.jpg'
 			},
 			{
@@ -412,11 +315,21 @@ var locations = [
 			},
 			{
 				type:'text',
-				text:'At 3°C, the Soca River was almost unswimmable for someone accustomed to the warmer waters. ' +
+				text:'At 3°C, the Soca River was almost unswimmable for someone accustomed to warmer waters. ' +
 						'Still, it was amazing to jump in after a long, frustrating hike to a waterfall that turned out to be completely dry. ' +
 						'The night before we left town marked the official end of the season, which was celebrated with a party at the margins of the Soca. ' +
-						'I estimate about 50% of the city was there, the only event I’ve ever been to that had no address. “Just walk to the river and follow the noise.”'
+						'I estimate about 50% of the city was there, the only addressless event I’ve ever attended. “Just walk to the river and follow the noise.”'
 			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'bovec-3x2-003.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'bovec-3x2-004.jpg'
+			}
 		]
 	},
 	{
@@ -431,44 +344,39 @@ var locations = [
 		content:[
 			{
 				type:'image',
-				size:'full',
-				path:'ljubljana-3x2-001.jpg'
+				size:'fullScreen',
+				path:'ljubljana-3x2-001-full.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
+				size:'landscape',
 				path:'ljubljana-3x2-002.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
+				size:'landscape',
 				path:'ljubljana-3x2-003.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
+				size:'landscape',
 				path:'ljubljana-3x2-004.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
+				size:'landscape',
 				path:'ljubljana-3x2-005.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
+				size:'landscape',
 				path:'ljubljana-3x2-006.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
+				size:'landscape',
 				path:'ljubljana-3x2-007.jpg'
-			},
-			{
-				type:'image',
-				size:'full',
-				path:'ljubljana-3x2-008.jpg'
-			},
+			}
 		]
 	},
 	{
@@ -483,28 +391,18 @@ var locations = [
 		content:[
 			{
 				type:'image',
-				size:'full',
-				path:'saalfelden-3x2-003.jpg'
+				size:'fullScreen',
+				path:'saalfelden-3x2-001-full.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
-				path:'saalfelden-3x2-005.jpg'
-			},
-			{
-				type:'image',
-				size:'full',
-				path:'saalfelden-3x2-001.jpg'
-			},
-			{
-				type:'image',
-				size:'full',
-				path:'saalfelden-3x2-004.jpg'
-			},
-			{
-				type:'image',
-				size:'full',
+				size:'landscape',
 				path:'saalfelden-3x2-002.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'saalfelden-3x2-003.jpg'
 			}
 		]
 	},
@@ -520,27 +418,43 @@ var locations = [
 		content:[
 			{
 				type:'image',
-				size:'full',
-				path:'salzburg-3x2-001.jpg'
+				size:'fullScreen',
+				path:'salzburg-3x2-001-full.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
+				size:'landscape',
 				path:'salzburg-3x2-002.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
+				size:'landscape',
 				path:'salzburg-3x2-003.jpg'
 			},
 			{
-				type:'image',
-				size:'full',
-				path:'salzburg-3x2-004.jpg'
+				type:'caption',
+				text:'Hallein'
+			},
+			{
+				type:'text',
+				text:'The bike path connecting Salzburg to the city of Hallein follows the Salzach river while offering 20km of peacefulness and tourist-free viewpoints such as the one in the photo above.'
 			},
 			{
 				type:'image',
-				size:'full',
+				size:'landscape',
+				path:'salzburg-3x2-004.jpg'
+			},
+			{
+				type:'caption',
+				text:'Kehlsteinhaus'
+			},
+			{
+				type:'text',
+				text:'Above: the view from “Eagle’s Nest,” Hitler’s infamous tea house. It isn’t in Salzburg, but it was close enough for a day trip.'
+			},
+			{
+				type:'image',
+				size:'landscape',
 				path:'salzburg-3x2-005.jpg'
 			}
 		]
@@ -557,27 +471,27 @@ var locations = [
 		content:[
 			{
 				type:'image',
-				size:'full',
-				path:'munich-3x2-001.jpg'
+				size:'fullScreen',
+				path:'munich-3x2-001-full.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
+				size:'landscape',
 				path:'munich-3x2-002.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
+				size:'landscape',
 				path:'munich-3x2-003.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
+				size:'landscape',
 				path:'munich-3x2-004.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
+				size:'landscape',
 				path:'munich-3x2-005.jpg'
 			}
 		]
@@ -594,24 +508,34 @@ var locations = [
 		content:[
 			{
 				type:'image',
-				size:'full',
-				path:'san-francisco-3x2-001.jpg'
+				size:'fullScreen',
+				path:'san-francisco-3x2-001-full.jpg'
 			},
 			{
 				type:'image',
-				size:'half',
+				size:'landscape',
+				path:'san-francisco-3x2-002.jpg'
+			},
+			{
+				type:'image',
+				size:'portrait',
 				path:'san-francisco-3x4-001.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
-				path:'san-francisco-3x2-002.jpg'
+				size:'landscape',
+				path:'san-francisco-3x2-003.jpg'
 			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'san-francisco-3x2-004.jpg'
+			}
 		]
 	},
 	{
 		url:'cajon-del-maipo',
-		title:'Cajon del Maipo',
+		title:'Cajón del Maipo',
 		date:'13.01.2016',
 		coordinates: {
 			lat: -33.8614073,
@@ -621,18 +545,22 @@ var locations = [
 		content:[
 			{
 				type:'image',
-				size:'full',
-				path:'cajon-del-maipo-3x2-003.jpg'
+				size:'fullScreen',
+				path:'cajon-del-maipo-3x2-001-full.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
-				path:'cajon-del-maipo-3x2-001.jpg'
-			},
-			{
-				type:'image',
-				size:'full',
+				size:'landscape',
 				path:'cajon-del-maipo-3x2-002.jpg'
+			},
+			{
+				type:'caption',
+				text:'Baños Colina'
+			},
+			{
+				type:'text',
+				text:'Driving through Cajón del Maipo trying to find Baños Colina was a memorable experience in itself, and though it was not easy to get to these volcano-heated springs ' +
+						'on a 1.0 liter engine rental car, it was the best possible way to end an amazing journey through South America.'
 			}
 		]
 	},
@@ -648,22 +576,22 @@ var locations = [
 		content:[
 			{
 				type:'image',
-				size:'full',
-				path:'pucon-3x2-001.jpg'
+				size:'fullScreen',
+				path:'pucon-3x2-001-full.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
+				size:'landscape',
 				path:'pucon-3x2-002.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
+				size:'landscape',
 				path:'pucon-3x2-003.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
+				size:'landscape',
 				path:'pucon-3x2-004.jpg'
 			}
 		]
@@ -680,18 +608,19 @@ var locations = [
 		content:[
 			{
 				type:'image',
-				size:'full',
-				path:'mar-del-plata-3x2-001.jpg'
+				size:'fullScreen',
+				path:'mar-del-plata-3x2-001-full.jpg'
 			},
 			{
 				type:'caption',
-				text:'Hospitality'
+				text:'Mar del Plata'
 			},
 			{
 				type:'text',
-				text:'Our time in Mar del Plata was enjoyable, but what stood out the most was how well we were received by our Argentinian hosts. ' +
-						'I have very few photos of the city, but I’ll never forget the trip we took to a drive-in beach, the family dinner, the good conversations, and the fact that I didn’t miss the bus to Mendoza because of them. ' +
-						'We were also told “seeing our large backpacks inspired them to travel again.” It’d mean much to me if they actually did.'
+				text:'Our time in the city was enjoyable, but what stood out the most was how well we were received by our Argentinian hosts. ' +
+						'I have very few photos of Mar del Plata, but I’ll never forget the trip we took to a drive-in beach, the family dinner, ' + 
+						'the good conversations, and the fact that I didn’t miss the bus to Mendoza because of them. ' +
+						'We were also told “seeing our large backpacks inspired them to travel again.” It’d be great to find out that they actually did.'
 			},
 		]
 	},
@@ -707,18 +636,23 @@ var locations = [
 		content: [
 			{
 				type:'image',
-				size:'full',
-				path:'buenos-aires-3x2-001.jpg'
+				size:'fullScreen',
+				path:'buenos-aires-3x2-004-full.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
+				size:'landscape',
 				path:'buenos-aires-3x2-002.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
+				size:'landscape',
 				path:'buenos-aires-3x2-003.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'buenos-aires-3x2-001.jpg'
 			}
 		]
 	},
@@ -734,13 +668,18 @@ var locations = [
 		content: [
 			{
 				type:'image',
-				size:'full',
-				path:'punta-del-este-3x2-001.jpg'
+				size:'fullScreen',
+				path:'punta-del-este-3x2-001-full.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
+				size:'landscape',
 				path:'punta-del-este-3x2-002.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'punta-del-este-3x2-003.jpg'
 			}
 		]
 	},
@@ -756,17 +695,12 @@ var locations = [
 		content:[
 			{
 				type:'image',
-				size:'full',
-				path:'montevideo-3x2-001.jpg'
+				size:'fullScreen',
+				path:'montevideo-3x2-001-full.jpg'
 			},
 			{
 				type:'image',
-				size:'half',
-				path:'montevideo-3x4-001.jpg'
-			},
-			{
-				type:'image',
-				size:'full',
+				size:'landscape',
 				path:'montevideo-3x2-002.jpg'
 			}
 		]
@@ -783,28 +717,28 @@ var locations = [
 		content:[
 			{
 				type:'image',
-				size:'full',
-				path:'sao-paulo-3x2-001.jpg'
+				size:'fullScreen',
+				path:'sao-paulo-3x2-001-full.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
+				size:'landscape',
 				path:'sao-paulo-3x2-002.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
+				size:'landscape',
 				path:'sao-paulo-3x2-003.jpg'
 			},
 			{
 				type:'image',
-				size:'half',
-				path:'sao-paulo-3x4-001.jpg'
+				size:'landscape',
+				path:'sao-paulo-3x2-004.jpg'
 			},
 			{
 				type:'image',
-				size:'full',
-				path:'sao-paulo-3x2-004.jpg'
+				size:'portrait',
+				path:'sao-paulo-3x4-001.jpg'
 			}
 		]
 	},
@@ -820,8 +754,8 @@ var locations = [
 		content: [
 			{
 				type:'image',
-				size:'full',
-				path:'big-sur-3x2-001.jpg'
+				size:'fullScreen',
+				path:'big-sur-3x2-001-full.jpg'
 			},
 			{
 				type:'caption',
@@ -829,7 +763,7 @@ var locations = [
 			},
 			{
 				type:'text',
-				text:'Camping in Big Sur was the first trip I made after graduating college, so I deemed it’d be appropriate to use it as a starting point for this site. This occasion also happens to mark the longest I’ve stayed completely disconnected from society (save from my traveling companion): 6 days.'
+				text:'Camping in Big Sur was the first trip I made after graduating college, so I deemed it’d be appropriate to use it as a starting point for this site. This occasion also happens to mark the longest I’ve stayed completely disconnected from society, a very fond memory of mine.'
 			}
 		]
 	}

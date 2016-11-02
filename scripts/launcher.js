@@ -55,4 +55,10 @@ function populate(id) {
 
 	locationsNav.appendChild(mapLink);
 
+	// Fade in the footer
+	var footer = document.getElementById('credits');
+	setTimeout(function(){
+		footer.style.opacity = 1;
+	}, 500)
+
 };
