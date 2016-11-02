@@ -93,13 +93,14 @@
 			margin-bottom:30px;
 		}
 
-		div.halfSize {
+		div.portrait {
 			width:calc(100vw - 20px);
 			height:calc((100vw - 20px) / 3 * 4);
 			margin-bottom:10px;
 		}
 
-		div.fullSize {
+		div.landscape,
+		div.fullScreen {
 			width:calc(100vw - 20px);
 			height:calc((100vw - 20px) / 3 * 2);
 			margin-bottom:10px;

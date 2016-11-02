@@ -50,7 +50,9 @@ function loadPage(id) {
 
 		transitionElement.appendChild(flag);
 		transitionElement.appendChild(mobileFlag);
-		transitionElement.className = 'show';
+		setTimeout(function(){
+			transitionElement.className = 'show';
+		}, 75);
 
 		// Wait a little, then move the flag up
 		setTimeout(function(){

@@ -18,6 +18,7 @@ var jsSources = [
 	'scripts/lib/hasher.min.js',
 	/* Functions */
 	'scripts/db.js',
+	'scripts/preloader.js',
 	'scripts/launcher.js',
 	'scripts/page-loader.js',
 	'scripts/nav-buttons.js',
