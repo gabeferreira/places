@@ -25,4 +25,7 @@ for (var flagPreloader = 0; flagPreloader < flagArray.length; flagPreloader++) {
 	var loadedFlag = new Image();
 	loadedFlag.src = flagPath + flagArray[flagPreloader];
 
+	var loadedMobileFlag = new Image();
+	loadedMobileFlag.src = flagPath + 'rotated/' + flagArray[flagPreloader];
+
 }

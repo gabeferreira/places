@@ -52,7 +52,7 @@ function loadPage(id) {
 		transitionElement.appendChild(mobileFlag);
 		setTimeout(function(){
 			transitionElement.className = 'show';
-		}, 75);
+		}, 100);
 
 		// Wait a little, then move the flag up
 		setTimeout(function(){
