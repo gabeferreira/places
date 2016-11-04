@@ -95,7 +95,9 @@ a {
     animation: fadeIn 300ms;
     -webkit-animation: fadeIn 300ms;
     animation-fill-mode: forwards;
-    -webkit-animation-fill-mode: forwards; }
+    -webkit-animation-fill-mode: forwards;
+    padding-bottom: 10px;
+    /* Prevent descenders from being clipped in Chrome */ }
   #locations a:hover {
     color: #333; }
   #locations a:hover img {
@@ -269,7 +271,8 @@ p.captionText {
 #locationTitle {
   font-size: 160px;
   color: #fff;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 20px; }
 
 #locationDate {
   position: absolute;

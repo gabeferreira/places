@@ -55,6 +55,7 @@ a {
 		-webkit-animation:fadeIn 300ms;
 		animation-fill-mode:forwards;
 		-webkit-animation-fill-mode:forwards;
+		padding-bottom:10px; /* Prevent descenders from being clipped in Chrome */
 	}
 
 	a:hover {
@@ -282,6 +283,7 @@ p.captionText {
 	font-size:160px;
 	color:$white;
 	text-align:center;
+	margin-bottom:20px;
 }
 
 #locationDate {
