@@ -1,6 +1,48 @@
 // Javascript Document
 var locations = [
 	{
+		url:'lisbon',
+		title:'Lisbon',
+		date:'31.10.2016',
+		coordinates: {
+			lat: 38.7101379,
+			lng: -9.1381656
+		},
+		flag:'lisbon',
+		content: [
+			{
+				type:'image',
+				size:'fullScreen',
+				path:'lisbon-3x2-001-full.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'lisbon-3x2-002.jpg'
+			},
+			{
+				type:'image',
+				size:'portrait',
+				path:'lisbon-3x4-001.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'lisbon-3x2-003.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'lisbon-3x2-004.jpg'
+			},
+			{
+				type:'image',
+				size:'portrait',
+				path:'lisbon-3x4-002.jpg'
+			},
+		]
+	},
+	{
 		url:'london',
 		title:'London',
 		date:'15.10.2016',
