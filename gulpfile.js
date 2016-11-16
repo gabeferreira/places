@@ -22,6 +22,7 @@ var jsSources = [
 	'scripts/launcher.js',
 	'scripts/page-loader.js',
 	'scripts/nav-buttons.js',
+	'scripts/arrow-nav.js',
 	'scripts/map.js',
 	'scripts/routes.js',
 	'scripts/cursor.js'

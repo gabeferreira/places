@@ -1,3 +1,3 @@
-# Getting Started With Gulp
+# Places
 
-Gulp example app for the tutorial
+Places is a collection of photos of the different locations Gabe Ferreira has had the chance to visit.

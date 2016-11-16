@@ -1,6 +1,58 @@
 // Javascript Document
 var locations = [
 	{
+		url:'madeira',
+		title:'Madeira',
+		date:'09.11.2016',
+		coordinates: {
+			lat: 32.6519356,
+			lng: -16.9100971
+		},
+		flag:'madeira',
+		content: [
+			{
+				type:'image',
+				size:'fullScreen',
+				path:'madeira-3x2-001-full.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'madeira-3x2-002.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'madeira-3x2-003.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'madeira-3x2-004.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'madeira-3x2-005.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'madeira-3x2-006.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'madeira-3x2-007.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'madeira-3x2-008.jpg'
+			}
+		]
+	},
+	{
 		url:'lisbon',
 		title:'Lisbon',
 		date:'31.10.2016',
@@ -17,13 +69,13 @@ var locations = [
 			},
 			{
 				type:'image',
-				size:'landscape',
-				path:'lisbon-3x2-002.jpg'
+				size:'portrait',
+				path:'lisbon-3x4-001.jpg'
 			},
 			{
 				type:'image',
-				size:'portrait',
-				path:'lisbon-3x4-001.jpg'
+				size:'landscape',
+				path:'lisbon-3x2-002.jpg'
 			},
 			{
 				type:'image',
@@ -37,8 +89,8 @@ var locations = [
 			},
 			{
 				type:'image',
-				size:'portrait',
-				path:'lisbon-3x4-002.jpg'
+				size:'landscape',
+				path:'lisbon-3x2-005.jpg'
 			},
 		]
 	},

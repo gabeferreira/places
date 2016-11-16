@@ -39,7 +39,7 @@ function populate(id) {
 		locationsNav.appendChild(locationsLink);
 
 		// Randomize when the item gets faded in
-		var randomAnimationDelay = Math.random() * 2000 + 'ms';
+		var randomAnimationDelay = Math.random() * 2500 + 'ms';
 
 		// Get last item in array
 		var placedLinks = document.getElementsByClassName('location');
