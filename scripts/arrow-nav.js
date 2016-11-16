@@ -15,7 +15,5 @@ document.onkeydown = function(e) {
 		console.log('escape key pressed');
 		break;
 	}
-
-	e.preventDefault();
 	
 };

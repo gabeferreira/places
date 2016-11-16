@@ -309,6 +309,9 @@ p.captionText {
   line-height: 35px;
   text-align: center; }
 
+.contentParagraph + .contentParagraph {
+  margin-top: -30px; }
+
 #droppedDots {
   position: absolute;
   top: 0;

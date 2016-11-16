@@ -49,6 +49,23 @@ var locations = [
 				type:'image',
 				size:'landscape',
 				path:'madeira-3x2-008.jpg'
+			},
+			{
+				type:'caption',
+				text:'Freitas &amp; Araújo'
+			},
+			{
+				type:'text',
+				text:'Madeira Island is a special place for me, as it used to be the home of my maternal grandparents before ' +
+					'they decided to move to Brazil. Finding the house in which they lived the early years of their lives ' + 
+					'(they were neighbors prior to getting married) proved to be a challenge: ' +
+					'none of my relatives knew the address, though I had the name of a fellow villager who could help.'
+			},
+			{
+				type:'text',
+				text:'Fortunately, I was able to connect with a 4th-degree cousin whose bar was located just 100 meters from the hostel in which' +
+					'I stayed (I didn’t know about her or the bar prior to booking my accommodation). I owe  the fact that I could locate my roots ' +
+					'on the island to to Beatriz, João, and their family’s amazing hospitality and willingness to help.'
 			}
 		]
 	},
@@ -254,6 +271,18 @@ var locations = [
 				type:'image',
 				size:'landscape',
 				path:'vienna-3x2-005.jpg'
+			},
+			{
+				type:'caption',
+				text:'Bier und Brot'
+			},
+			{
+				type:'text',
+				text:'My time in Vienna wouldn’t have been the same had I not met a former German professor of mine, Harald Friedl. ' +
+					'I’d had the chance to work with Harald on a few projects before, and it was a real pleasure to hear about the city ' +
+					'from a local with interesting perspectives. On my last morning there, I was treated to a great breakfast: I ate bread ' +
+					'from some of the world’s most prestigious bakers and learned about the unconventional ways with which they approach ' +
+					'their craft. Danke schön, Harald!'
 			}
 		]
 	},
