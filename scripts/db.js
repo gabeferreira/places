@@ -36,11 +36,6 @@ var locations = [
 				path:'madeira-3x2-005.jpg'
 			},
 			{
-				type:'image',
-				size:'landscape',
-				path:'madeira-3x2-006.jpg'
-			},
-			{
 				type:'caption',
 				text:'Freitas &amp; Araújo'
 			},
