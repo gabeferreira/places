@@ -31,6 +31,14 @@ a {
 	display:none; 
 }
 
+::-moz-selection {
+	background:$lightBlack;
+}
+
+::selection {
+	background:$lightBlack;
+}
+
 @keyframes fadeIn {
 	0%		{opacity:0};
 	100%	{opacity:1};
@@ -39,6 +47,16 @@ a {
 @-webkit-keyframes fadeIn {
 	0%		{opacity:0};
 	100%	{opacity:1};
+}
+
+#loadingMessage {
+	position:fixed;
+	top:10px;
+	left:10px;
+	font-size:15px;
+	line-height:20px;
+	font-family:$monospace;
+	transition:$transitionSpeed;
 }
 
 #locations {
@@ -246,8 +264,11 @@ p.captionText {
 		margin:auto;
 		margin-bottom:80px;
 		clear:both;
-		background-image:url('img/ui/bg-3x2.gif');
-		background-size:100% 100%;
+		background-color:$lightBlack;
+		background-image:url('img/ui/bg-dot.gif');
+		background-size:25px;
+		background-repeat:no-repeat;
+		background-position:center center;
 	}
 
 	div.portrait {
@@ -256,8 +277,11 @@ p.captionText {
 		margin:auto;
 		margin-bottom:80px;
 		display:block;
-		background-image:url('img/ui/bg-3x4.gif');
-		background-size:100% 100%;
+		background-color:$lightBlack;
+		background-image:url('img/ui/bg-dot.gif');
+		background-size:25px;
+		background-repeat:no-repeat;
+		background-position:center center;
 	}
 
 	div.fullScreen {
@@ -266,8 +290,11 @@ p.captionText {
 		margin:auto;
 		margin-bottom:80px;
 		display:block;
-		background-image:url('img/ui/bg-3x2.gif');
-		background-size:100% 100%;
+		background-color:$lightBlack;
+		background-image:url('img/ui/bg-dot.gif');
+		background-size:25px;
+		background-repeat:no-repeat;
+		background-position:center center;
 	}
 
 	img {

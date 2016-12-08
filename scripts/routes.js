@@ -12,11 +12,15 @@ crossroads.addRoute('{id}', function (id) {
 	// If this is the first time the user is loading a page, display the loading screen
 	if (pageSwitchCounter === 0) {
 
-		// Populate the page with all previews
-		populate(id);
-		loadPage(id);
-		pageSwitchCounter++;
+		setTimeout(function(){
 
+			populate(id);
+			loadPage(id);
+			pageSwitchCounter++;
+
+		}, 2500); // This 2.5 second delay gives time for fonts and previews to load
+
+	// If not, load the content directly
 	} else {
 
 		loadPage(id);

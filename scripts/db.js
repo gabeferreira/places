@@ -1,6 +1,164 @@
 // Javascript Document
 var locations = [
 	{
+		url:'coimbra',
+		title:'Coimbra',
+		date:'29.11.2016',
+		coordinates: {
+			lat: 40.2256459,
+			lng: -8.5927185
+		},
+		flag:'coimbra',
+		content: [
+			{
+				type:'image',
+				size:'fullScreen',
+				path:'coimbra-3x2-001-alt-full.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'coimbra-3x2-002.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'coimbra-3x2-003.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'coimbra-3x2-004.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'coimbra-3x2-005.jpg'
+			},
+		]
+	},
+	{
+		url:'aveiro',
+		title:'Aveiro',
+		date:'26.11.2016',
+		coordinates: {
+			lat: 40.627514,
+			lng: -8.7799841
+		},
+		flag:'aveiro',
+		content: [
+			{
+				type:'image',
+				size:'fullScreen',
+				path:'aveiro-3x2-001-full.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'aveiro-3x2-002.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'aveiro-3x2-003.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'aveiro-3x2-004.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'aveiro-3x2-005.jpg'
+			},
+		]
+	},
+	{
+		url:'porto',
+		title:'Porto',
+		date:'21.11.2016',
+		coordinates: {
+			lat: 41.1629766,
+			lng: -8.692065
+		},
+		flag:'portugal',
+		content: [
+			{
+				type:'image',
+				size:'fullScreen',
+				path:'porto-3x2-001-full.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'porto-3x2-002.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'porto-3x2-003.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'porto-3x2-004.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'porto-3x2-005.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'porto-3x2-006.jpg'
+			}
+		]
+	},
+	{
+		url:'sao-miguel',
+		title:'São Miguel',
+		date:'15.11.2016',
+		coordinates: {
+			lat: 37.8072936,
+			lng: -25.7758506
+		},
+		flag:'azores',
+		content: [
+			{
+				type:'image',
+				size:'fullScreen',
+				path:'sao-miguel-3x2-001-full.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'sao-miguel-3x2-002.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'sao-miguel-3x2-003.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'sao-miguel-3x2-004.jpg'
+			},
+			{
+				type:'image',
+				size:'portrait',
+				path:'sao-miguel-3x4-001.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'sao-miguel-3x2-005.jpg'
+			},
+		]
+	},
+	{
 		url:'madeira',
 		title:'Madeira',
 		date:'09.11.2016',

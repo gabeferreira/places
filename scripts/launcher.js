@@ -12,6 +12,10 @@ function populate(id) {
 		redirect();
 	};
 
+	// Fade out the Loading message
+	var loadingMessage = document.getElementById('loadingMessage');
+	loadingMessage.style.opacity = 0;
+
 	var locationsNav = document.getElementById('locations');
 
 	for (var a = 0; a < locations.length; a++) {
