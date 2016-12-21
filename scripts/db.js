@@ -1,6 +1,198 @@
 // Javascript Document
 var locations = [
 	{
+		url:'seville',
+		title:'Seville',
+		date:'16.12.2016',
+		coordinates: {
+			lat: 10,
+			lng: 10
+		},
+		flag:'seville',
+		content: [
+			{
+				type:'image',
+				size:'fullScreen',
+				path:'seville-3x2-001-full.jpg'
+			},
+			{
+				type:'caption',
+				text:'Flamenco &amp; Co.'
+			},
+			{
+				type:'text',
+				text:'I never took the time to document the experiences I liked the most about Seville: its music scene, the restaurants, bars, and the people. ' +
+					'In leaving them off this collection, I feel as though I am ignoring the real beauty of the place. The images below are as close as I am going to get.'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'seville-3x2-002.jpg'
+			},
+			{
+				type:'image',
+				size:'portrait',
+				path:'seville-3x4-001.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'seville-3x2-003.jpg'
+			},
+		]
+	},
+	{
+		url:'pueblos-blancos',
+		title:'Pueblos Blancos',
+		date:'14.12.2016',
+		coordinates: {
+			lat: 10,
+			lng: 10
+		},
+		flag:'pueblos-blancos',
+		content: [
+			{
+				type:'image',
+				size:'fullScreen',
+				path:'pueblos-blancos-3x2-001-full.jpg'
+			},
+			{
+				type:'caption',
+				text:'From Ronda to Seville'
+			},
+			{
+				type:'text',
+				text:'The Pueblos Blancos are a series of small towns spread across the Andalucia region of Spain. We made a brief stop at a few of them in our roadtrip from Ronda to Seville: ' +
+					'Setenil de las Bodegas, Zahara de la Sierra, Arcos de la Frontera, and Jeréz de la Frontera.'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'pueblos-blancos-3x2-002.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'pueblos-blancos-3x2-003.jpg'
+			},
+			{
+				type:'image',
+				size:'portrait',
+				path:'pueblos-blancos-3x4-001.jpg'
+			},
+		]
+	},
+	{
+		url:'malaga',
+		title:'Malaga',
+		date:'11.12.2016',
+		coordinates: {
+			lat: 10,
+			lng: 10
+		},
+		flag:'malaga',
+		content: [
+			{
+				type:'image',
+				size:'fullScreen',
+				path:'malaga-3x2-001-full.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'malaga-3x2-002.jpg'
+			},
+			{
+				type:'image',
+				size:'portrait',
+				path:'malaga-3x4-001.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'malaga-3x2-003.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'malaga-3x2-004.jpg'
+			},
+		]
+	},
+	{
+		url:'granada',
+		title:'Granada',
+		date:'08.12.2016',
+		coordinates: {
+			lat: 10,
+			lng: 10
+		},
+		flag:'granada',
+		content: [
+			{
+				type:'image',
+				size:'fullScreen',
+				path:'granada-3x2-001-full.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'granada-3x2-002.jpg'
+			},
+			{
+				type:'image',
+				size:'portrait',
+				path:'granada-3x4-001.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'granada-3x2-003.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'granada-3x2-004.jpg'
+			}
+		]
+	},
+	{
+		url:'madrid',
+		title:'Madrid',
+		date:'05.12.2016',
+		coordinates: {
+			lat: 10,
+			lng: 10
+		},
+		flag:'madrid',
+		content: [
+			{
+				type:'image',
+				size:'fullScreen',
+				path:'madrid-3x2-001-full.jpg'
+			},
+			{
+				type:'caption',
+				text:'Back in Madrid'
+			},
+			{
+				type:'text',
+				text:'This was my second visit to Spain’s capital, and, even after 8 years, the conclusion I’ve reached is the same: ' +
+					'I wouldn’t think twice about living here. I photographed very little of what I saw, opting instead to enjoy my time in a permanent state of déjà vu.'
+			},
+			{
+				type:'image',
+				size:'portrait',
+				path:'madrid-3x4-001.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'madrid-3x2-002.jpg'
+			}
+		]
+	},
+	{
 		url:'coimbra',
 		title:'Coimbra',
 		date:'29.11.2016',
@@ -98,6 +290,15 @@ var locations = [
 				type:'image',
 				size:'landscape',
 				path:'porto-3x2-003.jpg'
+			},
+			{
+				type:'caption',
+				text:'Braga'
+			},
+			{
+				type:'text',
+				text:'The next two photos were taken in Braga, a city close to Porto. Braga was one of the destinations in a short roadtrip ' +
+					'that also included Ponte de Lima and Viana do Castelo.'
 			},
 			{
 				type:'image',
@@ -201,7 +402,7 @@ var locations = [
 				type:'text',
 				text:'Madeira Island is a special place for me, as it used to be the home of my maternal grandparents before ' +
 					'they decided to move to Brazil. Finding the house in which they lived the early years of their lives ' + 
-					'(they were neighbors prior to getting married) proved to be a challenge: ' +
+					'(José and Ana were neighbors prior to getting married) proved to be a challenge: ' +
 					'none of my relatives knew the address, though I had the name of a fellow villager who could help.'
 			},
 			{
