@@ -2,6 +2,7 @@
 
 var flagPath = 'assets/img/flags/'
 var flagArray = [
+	'andalusia',
 	'austria',
 	'aveiro',
 	'azores',
@@ -12,15 +13,20 @@ var flagArray = [
 	'chile',
 	'coimbra',
 	'croatia',
+	'cuba',
 	'england',
 	'germany',
+	'jamaica',
 	'lisbon',
 	'ljubljana',
 	'madeira',
+	'madrid',
 	'mar_del_plata',
 	'portugal',
 	'prague',
 	'sao_paulo',
+	'seville',
+	'spain',
 	'uruguay',
 	'usa',
 	'zagreb',

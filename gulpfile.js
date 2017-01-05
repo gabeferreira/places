@@ -25,7 +25,8 @@ var jsSources = [
 	'scripts/arrow-nav.js',
 	'scripts/map.js',
 	'scripts/routes.js',
-	'scripts/cursor.js'
+	'scripts/cursor.js',
+	'scripts/counter.js'
 ]
 
 gulp.task('html', function() {

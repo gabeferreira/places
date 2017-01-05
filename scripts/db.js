@@ -1,14 +1,156 @@
 // Javascript Document
 var locations = [
 	{
+		url:'ocho-rios',
+		title:'Ocho Rios',
+		date:'03.01.2017',
+		coordinates: {
+			lat: 18.4007225,
+			lng: -77.0999729
+		},
+		flag:'jamaica',
+		content: [
+			{
+				type:'text',
+				text:'Coming soon.'
+			}
+		]
+	},
+	{
+		url:'montego-bay',
+		title:'Montego Bay',
+		date:'31.12.2016',
+		coordinates: {
+			lat: 18.4869485,
+			lng: -77.9232562
+		},
+		flag:'jamaica',
+		content: [
+			{
+				type:'text',
+				text:'Coming soon.'
+			}
+		]
+	},
+	{
+		url:'negril',
+		title:'Negril',
+		date:'28.12.2016',
+		coordinates: {
+			lat: 18.2692149,
+			lng: -78.357183
+		},
+		flag:'jamaica',
+		content: [
+			{
+				type:'text',
+				text:'Coming soon.'
+			}
+		]
+	},
+	{
+		url:'vedado-havana',
+		title:'Vedado, Havana',
+		date:'20.12.2016',
+		coordinates: {
+			lat: 23.1167964,
+			lng: -82.390785
+		},
+		flag:'cuba',
+		content: [
+			{
+				type:'image',
+				size:'fullScreen',
+				path:'vedado-havana-3x2-001-full.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'vedado-havana-3x2-002.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'vedado-havana-3x2-003.jpg'
+			},
+			{
+				type:'image',
+				size:'portrait',
+				path:'vedado-havana-3x4-001.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'vedado-havana-3x2-004.jpg'
+			},
+			{
+				type:'image',
+				size:'portrait',
+				path:'vedado-havana-3x4-002.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'vedado-havana-3x2-005.jpg'
+			}
+		]
+	},
+	{
+		url:'old-havana',
+		title:'Old Havana',
+		date:'20.12.2016',
+		coordinates: {
+			lat: 23.1295238,
+			lng: -82.3730015
+		},
+		flag:'cuba',
+		content: [
+			{
+				type:'image',
+				size:'fullScreen',
+				path:'old-havana-3x2-001-full.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'old-havana-3x2-002.jpg'
+			},
+			{
+				type:'image',
+				size:'portrait',
+				path:'old-havana-3x4-001.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'old-havana-3x2-003.jpg'
+			},
+			{
+				type:'image',
+				size:'portrait',
+				path:'old-havana-3x4-002.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'old-havana-3x2-004.jpg'
+			},
+			{
+				type:'image',
+				size:'portrait',
+				path:'old-havana-3x4-003.jpg'
+			}
+		]
+	},
+	{
 		url:'seville',
 		title:'Seville',
 		date:'16.12.2016',
 		coordinates: {
-			lat: 10,
-			lng: 10
+			lat: 37.37535,
+			lng: -6.02527
 		},
-		flag:'seville',
+		flag:'spain',
 		content: [
 			{
 				type:'image',
@@ -22,7 +164,7 @@ var locations = [
 			{
 				type:'text',
 				text:'I never took the time to document the experiences I liked the most about Seville: its music scene, the restaurants, bars, and the people. ' +
-					'In leaving them off this collection, I feel as though I am ignoring the real beauty of the place. The images below are as close as I am going to get.'
+					'In leaving them off this collection, I feel as though I am ignoring the real beauty of the place. The image above and those below are as close as I am going to get.'
 			},
 			{
 				type:'image',
@@ -46,10 +188,10 @@ var locations = [
 		title:'Pueblos Blancos',
 		date:'14.12.2016',
 		coordinates: {
-			lat: 10,
-			lng: 10
+			lat: 36.871005,
+			lng: -5.267243
 		},
-		flag:'pueblos-blancos',
+		flag:'andalusia',
 		content: [
 			{
 				type:'image',
@@ -62,7 +204,7 @@ var locations = [
 			},
 			{
 				type:'text',
-				text:'The Pueblos Blancos are a series of small towns spread across the Andalucia region of Spain. We made a brief stop at a few of them in our roadtrip from Ronda to Seville: ' +
+				text:'The Pueblos Blancos are a series of small towns spread across the Andalusia region of Spain. We made a brief stop at a few of them in our roadtrip from Ronda to Seville: ' +
 					'Setenil de las Bodegas, Zahara de la Sierra, Arcos de la Frontera, and Jeréz de la Frontera.'
 			},
 			{
@@ -87,8 +229,8 @@ var locations = [
 		title:'Malaga',
 		date:'11.12.2016',
 		coordinates: {
-			lat: 10,
-			lng: 10
+			lat: 36.7647495,
+			lng: -4.5646173
 		},
 		flag:'malaga',
 		content: [
@@ -124,10 +266,10 @@ var locations = [
 		title:'Granada',
 		date:'08.12.2016',
 		coordinates: {
-			lat: 10,
-			lng: 10
+			lat: 37.1809411,
+			lng: -3.6263771
 		},
-		flag:'granada',
+		flag:'andalusia',
 		content: [
 			{
 				type:'image',
@@ -161,8 +303,8 @@ var locations = [
 		title:'Madrid',
 		date:'05.12.2016',
 		coordinates: {
-			lat: 10,
-			lng: 10
+			lat: 40.4378693,
+			lng: -3.8199644
 		},
 		flag:'madrid',
 		content: [
@@ -401,13 +543,13 @@ var locations = [
 			{
 				type:'text',
 				text:'Madeira Island is a special place for me, as it used to be the home of my maternal grandparents before ' +
-					'they decided to move to Brazil. Finding the house in which they lived the early years of their lives ' + 
+					'they decided to move to Brazil. Finding the house where they lived the early years of their lives ' + 
 					'(José and Ana were neighbors prior to getting married) proved to be a challenge: ' +
 					'none of my relatives knew the address, though I had the name of a fellow villager who could help.'
 			},
 			{
 				type:'text',
-				text:'Fortunately, I was able to connect with a 4th-degree cousin whose bar was located just 100 meters from the hostel in which' +
+				text:'Fortunately, I was able to connect with a 4th-degree cousin whose bar was located just 100 meters from the hostel in which ' +
 					'I stayed (I didn’t know about her or the bar prior to booking my accommodation). I owe  the fact that I could locate my roots ' +
 					'on the island to to Beatriz, João, and their family’s amazing hospitality and willingness to help.'
 			}
@@ -1052,6 +1194,16 @@ var locations = [
 				path:'pucon-3x2-002.jpg'
 			},
 			{
+				type:'caption',
+				text:'A Dutch Beginning'
+			},
+			{
+				type:'text',
+				text:'Pucón was the city I enjoyed most in our trip to South America. More importantly, it helped shape the way I’d approach future travels: ' +
+					'visiting Pucón wasn’t in our plans, but a Dutch student in Buenos Aires was convincing enough to make us make it a destination. We never exchanged phone numbers, ' +
+					'but I’ve always wanted to send him a thank you note.'
+			},
+			{
 				type:'image',
 				size:'landscape',
 				path:'pucon-3x2-003.jpg'
@@ -1196,6 +1348,17 @@ var locations = [
 				type:'image',
 				size:'landscape',
 				path:'sao-paulo-3x2-003.jpg'
+			},
+			{
+				type:'caption',
+				text:'Two Cities'
+			},
+			{
+				type:'text',
+				text:'I grew up and lived most of my life in São Paulo, a city whose duality has intrigued me more and more over the years. ' +
+					'My perspective of the Terra da Garoa might differ from most foreigners who visit Brazil’s financial center: ' +
+					'a city of extremes, São Paulo is a concrete jungle surrounded by beautiful nature, a financial center flooded with art, and a wealthy metropolis ' +
+					'tainted with misery, and a gastronomic powerhouse for the few who can enjoy. Despite being gone for so long, this city still smells and feels like home to me.'
 			},
 			{
 				type:'image',

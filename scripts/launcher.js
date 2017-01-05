@@ -59,10 +59,18 @@ function populate(id) {
 
 	locationsNav.appendChild(mapLink);
 
-	// Fade in the footer
+	// Create favorites link
+	var favoritesLink = document.createElement('a');
+	favoritesLink.className = 'favoritesLink';
+	favoritesLink.href = '#/favorites';
+	favoritesLink.innerHTML = 'Favorites';
+
+	locationsNav.appendChild(favoritesLink);
+
+	// Fade in the footer and counter
 	var footer = document.getElementById('credits');
 	setTimeout(function(){
 		footer.style.opacity = 1;
-	}, 500)
+	}, 500);
 
 };

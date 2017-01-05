@@ -12,7 +12,7 @@ function loadPage(id) {
 	var flagPath = 'assets/img/flags/';
 	var flagMobilePath = 'assets/img/flags/rotated/'
 
-	if ( id === 'nothome' || id === 'map' ) {
+	if ( id === 'nothome' || id === 'map' || id === 'favorites' ) {
 
 		body.style.overflow = 'auto';
 
@@ -25,8 +25,14 @@ function loadPage(id) {
 		mapHolder.className = '';
 				
 		if ( id === 'map' && pageSwitchCounter > 0 ) {
+		
 			mapHolder.className = 'visible';
 			initMap();
+		
+		} else if ( id == 'favorites' ) {
+		
+			console.log('You clicked the favorites link')
+		
 		}
 
 	} else {
