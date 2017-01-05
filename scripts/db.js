@@ -66,7 +66,8 @@ var locations = [
 			{
 				type:'image',
 				size:'landscape',
-				path:'vedado-havana-3x2-002.jpg'
+				path:'vedado-havana-3x2-002.jpg',
+				favorite:true
 			},
 			{
 				type:'image',
@@ -133,7 +134,8 @@ var locations = [
 			{
 				type:'image',
 				size:'landscape',
-				path:'old-havana-3x2-004.jpg'
+				path:'old-havana-3x2-004.jpg',
+				favorite:true
 			},
 			{
 				type:'image',
@@ -155,7 +157,9 @@ var locations = [
 			{
 				type:'image',
 				size:'fullScreen',
-				path:'seville-3x2-001-full.jpg'
+				path:'seville-3x2-001-full.jpg',
+				// favorite:true,
+				// favoritePath:'seville-3x2-001.jpg'
 			},
 			{
 				type:'caption',
@@ -215,7 +219,8 @@ var locations = [
 			{
 				type:'image',
 				size:'landscape',
-				path:'pueblos-blancos-3x2-003.jpg'
+				path:'pueblos-blancos-3x2-003.jpg',
+				favorite:true
 			},
 			{
 				type:'image',
@@ -247,7 +252,8 @@ var locations = [
 			{
 				type:'image',
 				size:'portrait',
-				path:'malaga-3x4-001.jpg'
+				path:'malaga-3x4-001.jpg',
+				favorite:true
 			},
 			{
 				type:'image',
@@ -279,7 +285,8 @@ var locations = [
 			{
 				type:'image',
 				size:'landscape',
-				path:'granada-3x2-002.jpg'
+				path:'granada-3x2-002.jpg',
+				favorite:true
 			},
 			{
 				type:'image',
@@ -325,7 +332,8 @@ var locations = [
 			{
 				type:'image',
 				size:'portrait',
-				path:'madrid-3x4-001.jpg'
+				path:'madrid-3x4-001.jpg',
+				favorite:true
 			},
 			{
 				type:'image',
@@ -367,7 +375,8 @@ var locations = [
 			{
 				type:'image',
 				size:'landscape',
-				path:'coimbra-3x2-005.jpg'
+				path:'coimbra-3x2-005.jpg',
+				favorite:true
 			},
 		]
 	},
@@ -389,7 +398,8 @@ var locations = [
 			{
 				type:'image',
 				size:'landscape',
-				path:'aveiro-3x2-002.jpg'
+				path:'aveiro-3x2-002.jpg',
+				favorite:true
 			},
 			{
 				type:'image',
@@ -455,7 +465,8 @@ var locations = [
 			{
 				type:'image',
 				size:'landscape',
-				path:'porto-3x2-006.jpg'
+				path:'porto-3x2-006.jpg',
+				favorite:true
 			}
 		]
 	},
@@ -497,7 +508,8 @@ var locations = [
 			{
 				type:'image',
 				size:'landscape',
-				path:'sao-miguel-3x2-005.jpg'
+				path:'sao-miguel-3x2-005.jpg',
+				favorite:true
 			},
 		]
 	},
@@ -534,7 +546,8 @@ var locations = [
 			{
 				type:'image',
 				size:'landscape',
-				path:'madeira-3x2-005.jpg'
+				path:'madeira-3x2-005.jpg',
+				favorite:true
 			},
 			{
 				type:'caption',
@@ -573,7 +586,8 @@ var locations = [
 			{
 				type:'image',
 				size:'portrait',
-				path:'lisbon-3x4-001.jpg'
+				path:'lisbon-3x4-001.jpg',
+				favorite:true
 			},
 			{
 				type:'image',
@@ -615,7 +629,8 @@ var locations = [
 			{
 				type:'image',
 				size:'landscape',
-				path:'london-3x2-001.jpg'
+				path:'london-3x2-001.jpg',
+				favorite:true
 			},
 			{
 				type:'image',
@@ -662,7 +677,8 @@ var locations = [
 			{
 				type:'image',
 				size:'landscape',
-				path:'berlin-3x2-003.jpg'
+				path:'berlin-3x2-003.jpg',
+				favorite:true
 			},
 			{
 				type:'image',
@@ -699,7 +715,9 @@ var locations = [
 			{
 				type:'image',
 				size:'fullScreen',
-				path:'prague-3x2-001-full.jpg'
+				path:'prague-3x2-001-full.jpg',
+				// favorite:true,
+				// favoritePath:'prague-3x2-001.jpg'
 			},
 			{
 				type:'image',
@@ -741,7 +759,8 @@ var locations = [
 			{
 				type:'image',
 				size:'landscape',
-				path:'vienna-3x2-002.jpg'
+				path:'vienna-3x2-002.jpg',
+				favorite:true
 			},
 			{
 				type:'image',
@@ -795,7 +814,8 @@ var locations = [
 			{
 				type:'image',
 				size:'portrait',
-				path:'budapest-3x4-001.jpg'
+				path:'budapest-3x4-001.jpg',
+				favorite:true
 			},
 			{
 				type:'image',
@@ -842,7 +862,8 @@ var locations = [
 			{
 				type:'image',
 				size:'landscape',
-				path:'split-3x2-004.jpg'
+				path:'split-3x2-004.jpg',
+				favorite:true
 			}
 		]
 	},
@@ -859,7 +880,9 @@ var locations = [
 			{
 				type:'image',
 				size:'fullScreen',
-				path:'zagreb-3x2-001-full.jpg'
+				path:'zagreb-3x2-001-full.jpg',
+				// favorite:true,
+				// favoritePath:'zagreb-3x2-001.jpg'
 			},
 			{
 				type:'image',
@@ -916,7 +939,8 @@ var locations = [
 			{
 				type:'image',
 				size:'portrait',
-				path:'bovec-3x4-001.jpg'
+				path:'bovec-3x4-001.jpg',
+				favorite:true
 			},
 			{
 				type:'caption',
@@ -979,7 +1003,8 @@ var locations = [
 			{
 				type:'image',
 				size:'landscape',
-				path:'ljubljana-3x2-006.jpg'
+				path:'ljubljana-3x2-006.jpg',
+				favorite:true
 			},
 			{
 				type:'image',
@@ -1001,7 +1026,9 @@ var locations = [
 			{
 				type:'image',
 				size:'fullScreen',
-				path:'saalfelden-3x2-001-full.jpg'
+				path:'saalfelden-3x2-001-full.jpg',
+				// favorite:true,
+				// favoritePath:'saalfelden-3x2-001.jpg'
 			},
 			{
 				type:'image',
@@ -1038,7 +1065,8 @@ var locations = [
 			{
 				type:'image',
 				size:'landscape',
-				path:'salzburg-3x2-003.jpg'
+				path:'salzburg-3x2-003.jpg',
+				favorite:true
 			},
 			{
 				type:'caption',
@@ -1101,7 +1129,8 @@ var locations = [
 			{
 				type:'image',
 				size:'landscape',
-				path:'munich-3x2-005.jpg'
+				path:'munich-3x2-005.jpg',
+				favorite:true
 			}
 		]
 	},
@@ -1138,7 +1167,8 @@ var locations = [
 			{
 				type:'image',
 				size:'landscape',
-				path:'san-francisco-3x2-004.jpg'
+				path:'san-francisco-3x2-004.jpg',
+				favorite:true
 			}
 		]
 	},
@@ -1160,7 +1190,8 @@ var locations = [
 			{
 				type:'image',
 				size:'landscape',
-				path:'cajon-del-maipo-3x2-002.jpg'
+				path:'cajon-del-maipo-3x2-002.jpg',
+				favorite:true
 			},
 			{
 				type:'caption',
@@ -1186,23 +1217,25 @@ var locations = [
 			{
 				type:'image',
 				size:'fullScreen',
-				path:'pucon-3x2-001-full.jpg'
+				path:'pucon-3x2-001-full.jpg',
+				// favorite:true,
+				// favoritePath:'pucon-3x2-001-full.jpg'
 			},
 			{
 				type:'image',
 				size:'landscape',
 				path:'pucon-3x2-002.jpg'
 			},
-			{
-				type:'caption',
-				text:'A Dutch Beginning'
-			},
-			{
-				type:'text',
-				text:'Pucón was the city I enjoyed most in our trip to South America. More importantly, it helped shape the way I’d approach future travels: ' +
-					'visiting Pucón wasn’t in our plans, but a Dutch student in Buenos Aires was convincing enough to make us make it a destination. We never exchanged phone numbers, ' +
-					'but I’ve always wanted to send him a thank you note.'
-			},
+			// {
+			// 	type:'caption',
+			// 	text:'A Dutch Beginning'
+			// },
+			// {
+			// 	type:'text',
+			// 	text:'Pucón was the city I enjoyed most in our trip to South America. More importantly, it helped shape the way I’d approach future travels: ' +
+			// 		'visiting Pucón wasn’t in our plans, but a Dutch student in Buenos Aires was convincing enough to make us make it a destination. We never exchanged phone numbers, ' +
+			// 		'but I’ve always wanted to send him a thank you note.'
+			// },
 			{
 				type:'image',
 				size:'landscape',
@@ -1228,7 +1261,9 @@ var locations = [
 			{
 				type:'image',
 				size:'fullScreen',
-				path:'mar-del-plata-3x2-001-full.jpg'
+				path:'mar-del-plata-3x2-001-full.jpg',
+				// favorite:true,
+				// favoritePath:'mar-del-plata-3x2-001.jpg'
 			},
 			{
 				type:'caption',
@@ -1271,7 +1306,8 @@ var locations = [
 			{
 				type:'image',
 				size:'landscape',
-				path:'buenos-aires-3x2-001.jpg'
+				path:'buenos-aires-3x2-001.jpg',
+				favorite:true
 			}
 		]
 	},
@@ -1298,7 +1334,8 @@ var locations = [
 			{
 				type:'image',
 				size:'landscape',
-				path:'punta-del-este-3x2-003.jpg'
+				path:'punta-del-este-3x2-003.jpg',
+				favorite:true
 			}
 		]
 	},
@@ -1315,12 +1352,14 @@ var locations = [
 			{
 				type:'image',
 				size:'fullScreen',
-				path:'montevideo-3x2-001-full.jpg'
+				path:'montevideo-3x2-001-full.jpg',
+				// favorite:true,
+				// favoritePath:'montevideo-3x2-001.jpg'
 			},
 			{
 				type:'image',
 				size:'landscape',
-				path:'montevideo-3x2-002.jpg'
+				path:'montevideo-3x2-002.jpg',
 			}
 		]
 	},
@@ -1337,7 +1376,9 @@ var locations = [
 			{
 				type:'image',
 				size:'fullScreen',
-				path:'sao-paulo-3x2-001-full.jpg'
+				path:'sao-paulo-3x2-001-full.jpg',
+				// favorite:true,
+				// favoritePath:'sao-paulo-3x2-001.jpg'
 			},
 			{
 				type:'image',
@@ -1358,7 +1399,7 @@ var locations = [
 				text:'I grew up and lived most of my life in São Paulo, a city whose duality has intrigued me more and more over the years. ' +
 					'My perspective of the Terra da Garoa might differ from most foreigners who visit Brazil’s financial center: ' +
 					'a city of extremes, São Paulo is a concrete jungle surrounded by beautiful nature, a financial center flooded with art, and a wealthy metropolis ' +
-					'tainted with misery, and a gastronomic powerhouse for the few who can enjoy. Despite being gone for so long, this city still smells and feels like home to me.'
+					'tainted with misery. Despite being gone for so long, this city still smells and feels like home to me.'
 			},
 			{
 				type:'image',
@@ -1385,7 +1426,9 @@ var locations = [
 			{
 				type:'image',
 				size:'fullScreen',
-				path:'big-sur-3x2-001-full.jpg'
+				path:'big-sur-3x2-001-full.jpg',
+				// favorite:true,
+				// favoritePath:'big-sur-3x2-001.jpg'
 			},
 			{
 				type:'caption',

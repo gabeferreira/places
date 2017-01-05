@@ -18,7 +18,7 @@ crossroads.addRoute('{id}', function (id) {
 			loadPage(id);
 			pageSwitchCounter++;
 
-		}, 2500); // This 2.5 second delay gives time for fonts and previews to load
+		}, 3500); // This 3.5 second delay gives time for fonts and previews to load
 
 	// If not, load the content directly
 	} else {

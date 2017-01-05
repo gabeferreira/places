@@ -12,11 +12,11 @@ var gulp = require('gulp'),
 	cleanCSS = require('gulp-clean-css');
 
 var jsSources = [
-	/* Lib */
+	// Lib
 	'scripts/lib/signals.min.js',
 	'scripts/lib/crossroads.min.js',
 	'scripts/lib/hasher.min.js',
-	/* Functions */
+	// Functions
 	'scripts/db.js',
 	'scripts/preloader.js',
 	'scripts/launcher.js',

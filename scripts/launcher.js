@@ -43,7 +43,7 @@ function populate(id) {
 		locationsNav.appendChild(locationsLink);
 
 		// Randomize when the item gets faded in
-		var randomAnimationDelay = Math.random() * 2500 + 'ms';
+		var randomAnimationDelay = Math.random() * 2500 + 400 + 'ms';
 
 		// Get last item in array
 		var placedLinks = document.getElementsByClassName('location');
@@ -60,12 +60,12 @@ function populate(id) {
 	locationsNav.appendChild(mapLink);
 
 	// Create favorites link
-	var favoritesLink = document.createElement('a');
-	favoritesLink.className = 'favoritesLink';
-	favoritesLink.href = '#/favorites';
-	favoritesLink.innerHTML = 'Favorites';
+	// var favoritesLink = document.createElement('a');
+	// favoritesLink.className = 'favoritesLink';
+	// favoritesLink.href = '#/favorites';
+	// favoritesLink.innerHTML = 'Favorites';
 
-	locationsNav.appendChild(favoritesLink);
+	// locationsNav.appendChild(favoritesLink);
 
 	// Fade in the footer and counter
 	var footer = document.getElementById('credits');

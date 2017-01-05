@@ -29,11 +29,114 @@ function loadPage(id) {
 			mapHolder.className = 'visible';
 			initMap();
 		
-		} else if ( id == 'favorites' ) {
-		
-			console.log('You clicked the favorites link')
-		
-		}
+		} // else if ( id == 'favorites' ) {
+			
+			// The main actions performed when Favorites is clicked is similar
+			// to the process of loading a location.
+			// The only differences is that, since Favorites is a one-off,
+			// the title of the page is not dynamic.
+
+			// When it comes to loading content, the function loops through all images
+			// and appends only the ones who have the property favorite = true on db.js
+
+			// body.style.overflow = 'hidden';
+			// mapHolder.className = '';
+
+			// var transitionElement = document.getElementById('transitionElement');
+
+			// Clear the HTML of the transition element and move it back down
+			// transitionElement.innerHTML = '';
+
+			// Create the flag
+			// var flag = document.createElement('img');
+			// flag.className = 'flag';
+			// flag.src = 'assets/img/flags/favorites.svg';
+
+			// var mobileFlag = document.createElement('img');
+			// mobileFlag.className = 'mobileFlag';
+			// mobileFlag.src = 'assets/img/flags/rotated/favorites.svg';
+
+			// transitionElement.appendChild(flag);
+			// transitionElement.appendChild(mobileFlag);
+			// setTimeout(function(){
+			// 	transitionElement.className = 'show';
+			// }, 100);
+
+			// Wait a little, then move the flag up
+			// setTimeout(function(){
+			// 	transitionElement.className = 'up';
+			// 	setTimeout(function(){
+			// 		transitionElement.className = '';
+			// 	}, 500);
+			// }, 2000);
+			
+			// Delete the stage, if it exists
+			// var oldStage = document.getElementById('stage');
+
+			// if ( oldStage != null ) {
+			// 	setTimeout(function(){
+			// 		oldStage.parentNode.removeChild(oldStage);
+			// 	}, 500);
+			// }
+
+			// Create the stage and append to body
+			// var stage = document.createElement('div');
+			// stage.id = 'stage';
+
+			// body.appendChild(stage);
+
+			// Wait the .4 seconds that it take the flag to move up, then make the stage visible
+			// setTimeout(function(){
+			// 	stage.className = 'active';
+			// }, 450)
+
+			// Add a close button
+			// var closeLocation = document.createElement('div');
+			// closeLocation.id = 'closeLocation';
+			// closeLocation.onclick = function() {
+			// 	window.location.href = '#/nothome';
+			// }
+
+			// var closeLocationImg = document.createElement('img');
+			// closeLocationImg.src = 'assets/img/ui/close.svg';
+
+			// closeLocation.appendChild(closeLocationImg);
+			// stage.appendChild(closeLocation);
+
+			// Create a home for the content
+			// var locationContent = document.createElement('div');
+			// locationContent.id = 'locationContent';
+			// stage.appendChild(locationContent);
+
+			// Add a title and date to the project
+			// var locationTitle = document.createElement('div');
+			// locationTitle.id = 'locationTitle';
+			// locationTitle.innerHTML = 'Favorites';
+			// locationContent.appendChild(locationTitle);
+
+			// Loop through every photo on the site
+			// for (var locationsLoop = 0; locationsLoop < locations.length; locationsLoop++) {
+	
+				// Get length of each array, then use it in the loop
+			// 	var contentLengthCounter = locations[locationsLoop].content.length;
+
+			// 	for (var favoritePhotos = 0; favoritePhotos < contentLengthCounter; favoritePhotos++) {
+					
+			// 		if (locations[locationsLoop].content[favoritePhotos].type === 'image') {
+						
+			// 			if (locations[locationsLoop].content[favoritePhotos].favorite === true ) {
+
+			// 				console.log('This photo is a favorite.');
+
+			// 			}
+
+			// 		}
+
+			// 	}
+
+			// }
+
+		//}
 
 	} else {
 
