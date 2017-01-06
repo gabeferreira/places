@@ -11,9 +11,69 @@ var locations = [
 		flag:'jamaica',
 		content: [
 			{
+				type:'image',
+				size:'fullScreen',
+				path:'ocho-rios-3x2-001-full.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'ocho-rios-3x2-002.jpg'
+			},
+			{
+				type:'caption',
+				text:'Route Taxis'
+			},
+			{
 				type:'text',
-				text:'Coming soon.'
-			}
+				text:'We chose to travel from town to town in the semi-regulated route taxis, which cost us 1/5 to 1/10 of the standard cab fare. ' +
+					'The van seen above, our ride to Negril, was packed with 21 people, most wondering what two tourists were doing there.'
+			},
+			{
+				type:'image',
+				size:'portrait',
+				path:'ocho-rios-3x4-001.jpg'
+			},
+			{
+				type:'caption',
+				text:'Moving Around'
+			},
+			{
+				type:'text',
+				text:'Like the goats above, my cousin and I spent much of our time in Ocho Rios walking to our destinations, ' +
+					'which turned out to be a good way of seeing parts of the city tourists rarely get to. ' +
+					'Using our feet as transportation made us realize, very quickly, that the ' +
+					'the US$500/night resorts that dot Ocho Rios are not congruent with the reality of the town.' 
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'ocho-rios-3x2-003.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'ocho-rios-3x2-004.jpg'
+			},
+			{
+				type:'caption',
+				text:'An Empty Beach'
+			},
+			{
+				type:'text',
+				text:'An unmarked trail that started on the shoulder of a side road lead us to the first truly deserted beach ' +
+					'I’ve ever been to, a place with as many great sights as grotesque spiders.'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'ocho-rios-3x2-005.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'ocho-rios-3x2-006.jpg'
+			},
 		]
 	},
 	{
@@ -27,9 +87,25 @@ var locations = [
 		flag:'jamaica',
 		content: [
 			{
-				type:'text',
-				text:'Coming soon.'
-			}
+				type:'image',
+				size:'fullScreen',
+				path:'montego-bay-3x2-001-full.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'montego-bay-3x2-002.jpg'
+			},
+			{
+				type:'image',
+				size:'portrait',
+				path:'montego-bay-3x4-001.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'montego-bay-3x2-003.jpg'
+			},
 		]
 	},
 	{
@@ -43,8 +119,34 @@ var locations = [
 		flag:'jamaica',
 		content: [
 			{
-				type:'text',
-				text:'Coming soon.'
+				type:'image',
+				size:'fullScreen',
+				path:'negril-3x2-001-full.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'negril-3x2-002.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'negril-3x2-003.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'negril-3x2-004.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'negril-3x2-005.jpg'
+			},
+			{
+				type:'image',
+				size:'portrait',
+				path:'negril-3x4-001.jpg'
 			}
 		]
 	},
@@ -67,7 +169,7 @@ var locations = [
 				type:'image',
 				size:'landscape',
 				path:'vedado-havana-3x2-002.jpg',
-				favorite:true
+				// favorite:true
 			},
 			{
 				type:'image',
@@ -135,7 +237,7 @@ var locations = [
 				type:'image',
 				size:'landscape',
 				path:'old-havana-3x2-004.jpg',
-				favorite:true
+				// favorite:true
 			},
 			{
 				type:'image',
@@ -220,7 +322,7 @@ var locations = [
 				type:'image',
 				size:'landscape',
 				path:'pueblos-blancos-3x2-003.jpg',
-				favorite:true
+				// favorite:true
 			},
 			{
 				type:'image',
@@ -253,7 +355,7 @@ var locations = [
 				type:'image',
 				size:'portrait',
 				path:'malaga-3x4-001.jpg',
-				favorite:true
+				// favorite:true
 			},
 			{
 				type:'image',
@@ -286,7 +388,7 @@ var locations = [
 				type:'image',
 				size:'landscape',
 				path:'granada-3x2-002.jpg',
-				favorite:true
+				// favorite:true
 			},
 			{
 				type:'image',
@@ -333,7 +435,7 @@ var locations = [
 				type:'image',
 				size:'portrait',
 				path:'madrid-3x4-001.jpg',
-				favorite:true
+				// favorite:true
 			},
 			{
 				type:'image',
@@ -376,7 +478,7 @@ var locations = [
 				type:'image',
 				size:'landscape',
 				path:'coimbra-3x2-005.jpg',
-				favorite:true
+				// favorite:true
 			},
 		]
 	},
@@ -399,7 +501,7 @@ var locations = [
 				type:'image',
 				size:'landscape',
 				path:'aveiro-3x2-002.jpg',
-				favorite:true
+				// favorite:true
 			},
 			{
 				type:'image',
@@ -466,7 +568,7 @@ var locations = [
 				type:'image',
 				size:'landscape',
 				path:'porto-3x2-006.jpg',
-				favorite:true
+				// favorite:true
 			}
 		]
 	},
@@ -509,7 +611,7 @@ var locations = [
 				type:'image',
 				size:'landscape',
 				path:'sao-miguel-3x2-005.jpg',
-				favorite:true
+				// favorite:true
 			},
 		]
 	},
@@ -547,7 +649,7 @@ var locations = [
 				type:'image',
 				size:'landscape',
 				path:'madeira-3x2-005.jpg',
-				favorite:true
+				// favorite:true
 			},
 			{
 				type:'caption',
@@ -587,7 +689,7 @@ var locations = [
 				type:'image',
 				size:'portrait',
 				path:'lisbon-3x4-001.jpg',
-				favorite:true
+				// favorite:true
 			},
 			{
 				type:'image',
@@ -630,7 +732,7 @@ var locations = [
 				type:'image',
 				size:'landscape',
 				path:'london-3x2-001.jpg',
-				favorite:true
+				// favorite:true
 			},
 			{
 				type:'image',
@@ -678,7 +780,7 @@ var locations = [
 				type:'image',
 				size:'landscape',
 				path:'berlin-3x2-003.jpg',
-				favorite:true
+				// favorite:true
 			},
 			{
 				type:'image',
@@ -760,7 +862,7 @@ var locations = [
 				type:'image',
 				size:'landscape',
 				path:'vienna-3x2-002.jpg',
-				favorite:true
+				// favorite:true
 			},
 			{
 				type:'image',
@@ -815,7 +917,7 @@ var locations = [
 				type:'image',
 				size:'portrait',
 				path:'budapest-3x4-001.jpg',
-				favorite:true
+				// favorite:true
 			},
 			{
 				type:'image',
@@ -863,7 +965,7 @@ var locations = [
 				type:'image',
 				size:'landscape',
 				path:'split-3x2-004.jpg',
-				favorite:true
+				// favorite:true
 			}
 		]
 	},
@@ -940,7 +1042,7 @@ var locations = [
 				type:'image',
 				size:'portrait',
 				path:'bovec-3x4-001.jpg',
-				favorite:true
+				// favorite:true
 			},
 			{
 				type:'caption',
@@ -1004,7 +1106,7 @@ var locations = [
 				type:'image',
 				size:'landscape',
 				path:'ljubljana-3x2-006.jpg',
-				favorite:true
+				// favorite:true
 			},
 			{
 				type:'image',
@@ -1066,7 +1168,7 @@ var locations = [
 				type:'image',
 				size:'landscape',
 				path:'salzburg-3x2-003.jpg',
-				favorite:true
+				// favorite:true
 			},
 			{
 				type:'caption',
@@ -1130,7 +1232,7 @@ var locations = [
 				type:'image',
 				size:'landscape',
 				path:'munich-3x2-005.jpg',
-				favorite:true
+				// favorite:true
 			}
 		]
 	},
@@ -1149,26 +1251,34 @@ var locations = [
 				size:'fullScreen',
 				path:'san-francisco-3x2-001-full.jpg'
 			},
+			// {
+			// 	type:'image',
+			// 	size:'landscape',
+			// 	path:'san-francisco-3x2-002.jpg'
+			// },
+			// {
+			// 	type:'image',
+			// 	size:'portrait',
+			// 	path:'san-francisco-3x4-001.jpg'
+			// },
+			// {
+			// 	type:'image',
+			// 	size:'landscape',
+			// 	path:'san-francisco-3x2-003.jpg'
+			// },
 			{
-				type:'image',
-				size:'landscape',
-				path:'san-francisco-3x2-002.jpg'
+				type:'caption',
+				text:'Hi Again'
 			},
 			{
-				type:'image',
-				size:'portrait',
-				path:'san-francisco-3x4-001.jpg'
-			},
-			{
-				type:'image',
-				size:'landscape',
-				path:'san-francisco-3x2-003.jpg'
+				type:'text',
+				text:'It’s always a joy to visit San Francisco, my favorite city in the USA.'
 			},
 			{
 				type:'image',
 				size:'landscape',
 				path:'san-francisco-3x2-004.jpg',
-				favorite:true
+				// favorite:true
 			}
 		]
 	},
@@ -1191,7 +1301,7 @@ var locations = [
 				type:'image',
 				size:'landscape',
 				path:'cajon-del-maipo-3x2-002.jpg',
-				favorite:true
+				// favorite:true
 			},
 			{
 				type:'caption',
@@ -1303,12 +1413,12 @@ var locations = [
 				size:'landscape',
 				path:'buenos-aires-3x2-003.jpg'
 			},
-			{
-				type:'image',
-				size:'landscape',
-				path:'buenos-aires-3x2-001.jpg',
-				favorite:true
-			}
+			// {
+			// 	// type:'image',
+			// 	// size:'landscape',
+			// 	// path:'buenos-aires-3x2-001.jpg',
+			// 	// favorite:true
+			// }
 		]
 	},
 	{
@@ -1335,7 +1445,7 @@ var locations = [
 				type:'image',
 				size:'landscape',
 				path:'punta-del-este-3x2-003.jpg',
-				favorite:true
+				// favorite:true
 			}
 		]
 	},
