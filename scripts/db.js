@@ -73,7 +73,7 @@ var locations = [
 				type:'image',
 				size:'landscape',
 				path:'ocho-rios-3x2-006.jpg'
-			},
+			}
 		]
 	},
 	{
@@ -195,6 +195,11 @@ var locations = [
 				type:'image',
 				size:'landscape',
 				path:'vedado-havana-3x2-005.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'vedado-havana-3x2-006.jpg'
 			}
 		]
 	},
@@ -243,6 +248,11 @@ var locations = [
 				type:'image',
 				size:'portrait',
 				path:'old-havana-3x4-003.jpg'
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'old-havana-3x2-006.jpg'
 			}
 		]
 	},
@@ -397,14 +407,19 @@ var locations = [
 			},
 			{
 				type:'image',
+				size:'portrait',
+				path:'granada-3x4-002.jpg'
+			},
+			{
+				type:'image',
 				size:'landscape',
 				path:'granada-3x2-003.jpg'
 			},
 			{
 				type:'image',
 				size:'landscape',
-				path:'granada-3x2-004.jpg'
-			}
+				path:'granada-3x2-005.jpg'
+			},
 		]
 	},
 	{
@@ -441,7 +456,17 @@ var locations = [
 				type:'image',
 				size:'landscape',
 				path:'madrid-3x2-002.jpg'
-			}
+			},
+			{
+				type:'image',
+				size:'landscape',
+				path:'madrid-3x2-003.jpg'
+			},
+			{
+				type:'image',
+				size:'portrait',
+				path:'madrid-3x4-002.jpg',
+			},
 		]
 	},
 	{
