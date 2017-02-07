@@ -1261,320 +1261,320 @@ var locations = [
 			}
 		]
 	},
-	{
-		url:'san-francisco',
-		title:'San Francisco',
-		date:'22.04.2016',
-		coordinates: {
-			lat: 37.757815,
-			lng: -122.5076402
-		},
-		flag:'usa',
-		content:[
-			{
-				type:'image',
-				size:'fullScreen',
-				path:'san-francisco-3x2-001-full.jpg'
-			},
-			// {
-			// 	type:'image',
-			// 	size:'landscape',
-			// 	path:'san-francisco-3x2-002.jpg'
-			// },
-			// {
-			// 	type:'image',
-			// 	size:'portrait',
-			// 	path:'san-francisco-3x4-001.jpg'
-			// },
-			// {
-			// 	type:'image',
-			// 	size:'landscape',
-			// 	path:'san-francisco-3x2-003.jpg'
-			// },
-			{
-				type:'caption',
-				text:'Hi Again'
-			},
-			{
-				type:'text',
-				text:'It’s always a joy to visit San Francisco, my favorite city in the USA.'
-			},
-			{
-				type:'image',
-				size:'landscape',
-				path:'san-francisco-3x2-004.jpg',
-				// favorite:true
-			}
-		]
-	},
-	{
-		url:'cajon-del-maipo',
-		title:'Cajón del Maipo',
-		date:'13.01.2016',
-		coordinates: {
-			lat: -33.8614073,
-			lng: -69.9777909
-		},
-		flag:'chile',
-		content:[
-			{
-				type:'image',
-				size:'fullScreen',
-				path:'cajon-del-maipo-3x2-001-full.jpg'
-			},
-			{
-				type:'image',
-				size:'landscape',
-				path:'cajon-del-maipo-3x2-002.jpg',
-				// favorite:true
-			},
-			{
-				type:'caption',
-				text:'Baños Colina'
-			},
-			{
-				type:'text',
-				text:'Driving through Cajón del Maipo trying to find Baños Colina was a memorable experience in itself, and though it was not easy to get to these volcano-heated springs ' +
-						'on a 1.0 liter engine rental car, it was the best possible way to end an amazing journey through South America.'
-			}
-		]
-	},
-	{
-		url:'pucon',
-		title:'Pucón',
-		date:'08.01.2016',
-		coordinates: {
-			lat: -39.2803931,
-			lng: -71.9766899
-		},
-		flag:'chile',
-		content:[
-			{
-				type:'image',
-				size:'fullScreen',
-				path:'pucon-3x2-001-full.jpg',
-				// favorite:true,
-				// favoritePath:'pucon-3x2-001-full.jpg'
-			},
-			{
-				type:'image',
-				size:'landscape',
-				path:'pucon-3x2-002.jpg'
-			},
-			// {
-			// 	type:'caption',
-			// 	text:'A Dutch Beginning'
-			// },
-			// {
-			// 	type:'text',
-			// 	text:'Pucón was the city I enjoyed most in our trip to South America. More importantly, it helped shape the way I’d approach future travels: ' +
-			// 		'visiting Pucón wasn’t in our plans, but a Dutch student in Buenos Aires was convincing enough to make us make it a destination. We never exchanged phone numbers, ' +
-			// 		'but I’ve always wanted to send him a thank you note.'
-			// },
-			{
-				type:'image',
-				size:'landscape',
-				path:'pucon-3x2-003.jpg'
-			},
-			{
-				type:'image',
-				size:'landscape',
-				path:'pucon-3x2-004.jpg'
-			}
-		]
-	},
-	{
-		url:'mar-del-plata',
-		title:'Mar del Plata',
-		date:'02.01.2015',
-		coordinates: {
-			lat: -37.9332167,
-			lng: -57.7822829
-		},
-		flag:'mar_del_plata',
-		content:[
-			{
-				type:'image',
-				size:'fullScreen',
-				path:'mar-del-plata-3x2-001-full.jpg',
-				// favorite:true,
-				// favoritePath:'mar-del-plata-3x2-001.jpg'
-			},
-			{
-				type:'caption',
-				text:'Mar del Plata'
-			},
-			{
-				type:'text',
-				text:'Our time in the city was enjoyable, but what stood out the most was how well we were received by our Argentinian hosts. ' +
-						'I have very few photos of Mar del Plata, but I’ll never forget the trip we took to a drive-in beach, the family dinner, ' + 
-						'the good conversations, and the fact that I didn’t miss the bus to Mendoza because of them. ' +
-						'We were also told “seeing our large backpacks inspired them to travel again.” It’d be great to find out that they actually did.'
-			},
-		]
-	},
-	{
-		url:'buenos-aires',
-		title:'Buenos Aires',
-		date:'28.12.2015',
-		coordinates: {
-			lat: -34.6155729,
-			lng: -58.5033605
-		},
-		flag:'buenos_aires',
-		content: [
-			{
-				type:'image',
-				size:'fullScreen',
-				path:'buenos-aires-3x2-004-full.jpg'
-			},
-			{
-				type:'image',
-				size:'landscape',
-				path:'buenos-aires-3x2-002.jpg'
-			},
-			{
-				type:'image',
-				size:'landscape',
-				path:'buenos-aires-3x2-003.jpg'
-			},
-			// {
-			// 	// type:'image',
-			// 	// size:'landscape',
-			// 	// path:'buenos-aires-3x2-001.jpg',
-			// 	// favorite:true
-			// }
-		]
-	},
-	{
-		url:'punta-del-este',
-		title:'Punta del Este',
-		date:'24.12.2015',
-		coordinates: {
-			lat: -34.9424383,
-			lng: -54.9468935
-		},
-		flag:'uruguay',
-		content: [
-			{
-				type:'image',
-				size:'fullScreen',
-				path:'punta-del-este-3x2-001-full.jpg'
-			},
-			{
-				type:'image',
-				size:'landscape',
-				path:'punta-del-este-3x2-002.jpg'
-			},
-			{
-				type:'image',
-				size:'landscape',
-				path:'punta-del-este-3x2-003.jpg',
-				// favorite:true
-			}
-		]
-	},
-	{
-		url:'montevideo',
-		title:'Montevideo',
-		date:'21.12.2015',
-		coordinates: {
-			lat: -34.8195806,
-			lng: -56.3702907
-		},
-		flag:'uruguay',
-		content:[
-			{
-				type:'image',
-				size:'fullScreen',
-				path:'montevideo-3x2-001-full.jpg',
-				// favorite:true,
-				// favoritePath:'montevideo-3x2-001.jpg'
-			},
-			{
-				type:'image',
-				size:'landscape',
-				path:'montevideo-3x2-002.jpg',
-			}
-		]
-	},
-	{
-		url:'sao-paulo',
-		title:'São Paulo',
-		date:'14.12.2015',
-		coordinates: {
-			lat: -23.6815315,
-			lng: -46.8754919
-		},
-		flag:'sao_paulo',
-		content:[
-			{
-				type:'image',
-				size:'fullScreen',
-				path:'sao-paulo-3x2-001-full.jpg',
-				// favorite:true,
-				// favoritePath:'sao-paulo-3x2-001.jpg'
-			},
-			{
-				type:'image',
-				size:'landscape',
-				path:'sao-paulo-3x2-002.jpg'
-			},
-			{
-				type:'image',
-				size:'landscape',
-				path:'sao-paulo-3x2-003.jpg'
-			},
-			{
-				type:'caption',
-				text:'Two Cities'
-			},
-			{
-				type:'text',
-				text:'I grew up and lived most of my life in São Paulo, a city whose duality has intrigued me more and more over the years. ' +
-					'My perspective of the Terra da Garoa might differ from most foreigners who visit Brazil’s financial center: ' +
-					'a city of extremes, São Paulo is a concrete jungle surrounded by beautiful nature, a financial center flooded with art, and a wealthy metropolis ' +
-					'tainted with misery. Despite being gone for so long, this city still smells and feels like home to me.'
-			},
-			{
-				type:'image',
-				size:'landscape',
-				path:'sao-paulo-3x2-004.jpg'
-			},
-			{
-				type:'image',
-				size:'portrait',
-				path:'sao-paulo-3x4-001.jpg'
-			}
-		]
-	},
-	{
-		url:'big-sur',
-		title:'Big Sur',
-		date:'22.05.2015',
-		coordinates: {
-			lat: 36.2466623,
-			lng: -121.8562847
-		},
-		flag:'usa',
-		content: [
-			{
-				type:'image',
-				size:'fullScreen',
-				path:'big-sur-3x2-001-full.jpg',
-				// favorite:true,
-				// favoritePath:'big-sur-3x2-001.jpg'
-			},
-			{
-				type:'caption',
-				text:'University'
-			},
-			{
-				type:'text',
-				text:'Camping in Big Sur was the first trip I made after graduating college, so I deemed it’d be appropriate to use it as a starting point for this site. This occasion also happens to mark the longest I’ve stayed completely disconnected from society, a very fond memory of mine.'
-			}
-		]
-	}
+	// {
+	// 	url:'san-francisco',
+	// 	title:'San Francisco',
+	// 	date:'22.04.2016',
+	// 	coordinates: {
+	// 		lat: 37.757815,
+	// 		lng: -122.5076402
+	// 	},
+	// 	flag:'usa',
+	// 	content:[
+	// 		{
+	// 			type:'image',
+	// 			size:'fullScreen',
+	// 			path:'san-francisco-3x2-001-full.jpg'
+	// 		},
+	// 		// {
+	// 		// 	type:'image',
+	// 		// 	size:'landscape',
+	// 		// 	path:'san-francisco-3x2-002.jpg'
+	// 		// },
+	// 		// {
+	// 		// 	type:'image',
+	// 		// 	size:'portrait',
+	// 		// 	path:'san-francisco-3x4-001.jpg'
+	// 		// },
+	// 		// {
+	// 		// 	type:'image',
+	// 		// 	size:'landscape',
+	// 		// 	path:'san-francisco-3x2-003.jpg'
+	// 		// },
+	// 		{
+	// 			type:'caption',
+	// 			text:'Hi Again'
+	// 		},
+	// 		{
+	// 			type:'text',
+	// 			text:'It’s always a joy to visit San Francisco, my favorite city in the USA.'
+	// 		},
+	// 		{
+	// 			type:'image',
+	// 			size:'landscape',
+	// 			path:'san-francisco-3x2-004.jpg',
+	// 			// favorite:true
+	// 		}
+	// 	]
+	// },
+	// {
+	// 	url:'cajon-del-maipo',
+	// 	title:'Cajón del Maipo',
+	// 	date:'13.01.2016',
+	// 	coordinates: {
+	// 		lat: -33.8614073,
+	// 		lng: -69.9777909
+	// 	},
+	// 	flag:'chile',
+	// 	content:[
+	// 		{
+	// 			type:'image',
+	// 			size:'fullScreen',
+	// 			path:'cajon-del-maipo-3x2-001-full.jpg'
+	// 		},
+	// 		{
+	// 			type:'image',
+	// 			size:'landscape',
+	// 			path:'cajon-del-maipo-3x2-002.jpg',
+	// 			// favorite:true
+	// 		},
+	// 		{
+	// 			type:'caption',
+	// 			text:'Baños Colina'
+	// 		},
+	// 		{
+	// 			type:'text',
+	// 			text:'Driving through Cajón del Maipo trying to find Baños Colina was a memorable experience in itself, and though it was not easy to get to these volcano-heated springs ' +
+	// 					'on a 1.0 liter engine rental car, it was the best possible way to end an amazing journey through South America.'
+	// 		}
+	// 	]
+	// },
+	// {
+	// 	url:'pucon',
+	// 	title:'Pucón',
+	// 	date:'08.01.2016',
+	// 	coordinates: {
+	// 		lat: -39.2803931,
+	// 		lng: -71.9766899
+	// 	},
+	// 	flag:'chile',
+	// 	content:[
+	// 		{
+	// 			type:'image',
+	// 			size:'fullScreen',
+	// 			path:'pucon-3x2-001-full.jpg',
+	// 			// favorite:true,
+	// 			// favoritePath:'pucon-3x2-001-full.jpg'
+	// 		},
+	// 		{
+	// 			type:'image',
+	// 			size:'landscape',
+	// 			path:'pucon-3x2-002.jpg'
+	// 		},
+	// 		// {
+	// 		// 	type:'caption',
+	// 		// 	text:'A Dutch Beginning'
+	// 		// },
+	// 		// {
+	// 		// 	type:'text',
+	// 		// 	text:'Pucón was the city I enjoyed most in our trip to South America. More importantly, it helped shape the way I’d approach future travels: ' +
+	// 		// 		'visiting Pucón wasn’t in our plans, but a Dutch student in Buenos Aires was convincing enough to make us make it a destination. We never exchanged phone numbers, ' +
+	// 		// 		'but I’ve always wanted to send him a thank you note.'
+	// 		// },
+	// 		{
+	// 			type:'image',
+	// 			size:'landscape',
+	// 			path:'pucon-3x2-003.jpg'
+	// 		},
+	// 		{
+	// 			type:'image',
+	// 			size:'landscape',
+	// 			path:'pucon-3x2-004.jpg'
+	// 		}
+	// 	]
+	// },
+	// {
+	// 	url:'mar-del-plata',
+	// 	title:'Mar del Plata',
+	// 	date:'02.01.2015',
+	// 	coordinates: {
+	// 		lat: -37.9332167,
+	// 		lng: -57.7822829
+	// 	},
+	// 	flag:'mar_del_plata',
+	// 	content:[
+	// 		{
+	// 			type:'image',
+	// 			size:'fullScreen',
+	// 			path:'mar-del-plata-3x2-001-full.jpg',
+	// 			// favorite:true,
+	// 			// favoritePath:'mar-del-plata-3x2-001.jpg'
+	// 		},
+	// 		{
+	// 			type:'caption',
+	// 			text:'Mar del Plata'
+	// 		},
+	// 		{
+	// 			type:'text',
+	// 			text:'Our time in the city was enjoyable, but what stood out the most was how well we were received by our Argentinian hosts. ' +
+	// 					'I have very few photos of Mar del Plata, but I’ll never forget the trip we took to a drive-in beach, the family dinner, ' + 
+	// 					'the good conversations, and the fact that I didn’t miss the bus to Mendoza because of them. ' +
+	// 					'We were also told “seeing our large backpacks inspired them to travel again.” It’d be great to find out that they actually did.'
+	// 		},
+	// 	]
+	// },
+	// {
+	// 	url:'buenos-aires',
+	// 	title:'Buenos Aires',
+	// 	date:'28.12.2015',
+	// 	coordinates: {
+	// 		lat: -34.6155729,
+	// 		lng: -58.5033605
+	// 	},
+	// 	flag:'buenos_aires',
+	// 	content: [
+	// 		{
+	// 			type:'image',
+	// 			size:'fullScreen',
+	// 			path:'buenos-aires-3x2-004-full.jpg'
+	// 		},
+	// 		{
+	// 			type:'image',
+	// 			size:'landscape',
+	// 			path:'buenos-aires-3x2-002.jpg'
+	// 		},
+	// 		{
+	// 			type:'image',
+	// 			size:'landscape',
+	// 			path:'buenos-aires-3x2-003.jpg'
+	// 		},
+	// 		// {
+	// 		// 	// type:'image',
+	// 		// 	// size:'landscape',
+	// 		// 	// path:'buenos-aires-3x2-001.jpg',
+	// 		// 	// favorite:true
+	// 		// }
+	// 	]
+	// },
+	// {
+	// 	url:'punta-del-este',
+	// 	title:'Punta del Este',
+	// 	date:'24.12.2015',
+	// 	coordinates: {
+	// 		lat: -34.9424383,
+	// 		lng: -54.9468935
+	// 	},
+	// 	flag:'uruguay',
+	// 	content: [
+	// 		{
+	// 			type:'image',
+	// 			size:'fullScreen',
+	// 			path:'punta-del-este-3x2-001-full.jpg'
+	// 		},
+	// 		{
+	// 			type:'image',
+	// 			size:'landscape',
+	// 			path:'punta-del-este-3x2-002.jpg'
+	// 		},
+	// 		{
+	// 			type:'image',
+	// 			size:'landscape',
+	// 			path:'punta-del-este-3x2-003.jpg',
+	// 			// favorite:true
+	// 		}
+	// 	]
+	// },
+	// {
+	// 	url:'montevideo',
+	// 	title:'Montevideo',
+	// 	date:'21.12.2015',
+	// 	coordinates: {
+	// 		lat: -34.8195806,
+	// 		lng: -56.3702907
+	// 	},
+	// 	flag:'uruguay',
+	// 	content:[
+	// 		{
+	// 			type:'image',
+	// 			size:'fullScreen',
+	// 			path:'montevideo-3x2-001-full.jpg',
+	// 			// favorite:true,
+	// 			// favoritePath:'montevideo-3x2-001.jpg'
+	// 		},
+	// 		{
+	// 			type:'image',
+	// 			size:'landscape',
+	// 			path:'montevideo-3x2-002.jpg',
+	// 		}
+	// 	]
+	// },
+	// {
+	// 	url:'sao-paulo',
+	// 	title:'São Paulo',
+	// 	date:'14.12.2015',
+	// 	coordinates: {
+	// 		lat: -23.6815315,
+	// 		lng: -46.8754919
+	// 	},
+	// 	flag:'sao_paulo',
+	// 	content:[
+	// 		{
+	// 			type:'image',
+	// 			size:'fullScreen',
+	// 			path:'sao-paulo-3x2-001-full.jpg',
+	// 			// favorite:true,
+	// 			// favoritePath:'sao-paulo-3x2-001.jpg'
+	// 		},
+	// 		{
+	// 			type:'image',
+	// 			size:'landscape',
+	// 			path:'sao-paulo-3x2-002.jpg'
+	// 		},
+	// 		{
+	// 			type:'image',
+	// 			size:'landscape',
+	// 			path:'sao-paulo-3x2-003.jpg'
+	// 		},
+	// 		{
+	// 			type:'caption',
+	// 			text:'Two Cities'
+	// 		},
+	// 		{
+	// 			type:'text',
+	// 			text:'I grew up and lived most of my life in São Paulo, a city whose duality has intrigued me more and more over the years. ' +
+	// 				'My perspective of the Terra da Garoa might differ from most foreigners who visit Brazil’s financial center: ' +
+	// 				'a city of extremes, São Paulo is a concrete jungle surrounded by beautiful nature, a financial center flooded with art, and a wealthy metropolis ' +
+	// 				'tainted with misery. Despite being gone for so long, this city still smells and feels like home to me.'
+	// 		},
+	// 		{
+	// 			type:'image',
+	// 			size:'landscape',
+	// 			path:'sao-paulo-3x2-004.jpg'
+	// 		},
+	// 		{
+	// 			type:'image',
+	// 			size:'portrait',
+	// 			path:'sao-paulo-3x4-001.jpg'
+	// 		}
+	// 	]
+	// },
+	// {
+	// 	url:'big-sur',
+	// 	title:'Big Sur',
+	// 	date:'22.05.2015',
+	// 	coordinates: {
+	// 		lat: 36.2466623,
+	// 		lng: -121.8562847
+	// 	},
+	// 	flag:'usa',
+	// 	content: [
+	// 		{
+	// 			type:'image',
+	// 			size:'fullScreen',
+	// 			path:'big-sur-3x2-001-full.jpg',
+	// 			// favorite:true,
+	// 			// favoritePath:'big-sur-3x2-001.jpg'
+	// 		},
+	// 		{
+	// 			type:'caption',
+	// 			text:'University'
+	// 		},
+	// 		{
+	// 			type:'text',
+	// 			text:'Camping in Big Sur was the first trip I made after graduating college, so I deemed it’d be appropriate to use it as a starting point for this site. This occasion also happens to mark the longest I’ve stayed completely disconnected from society, a very fond memory of mine.'
+	// 		}
+	// 	]
+	// }
 	/*
 	{
 		url:'about',
